@@ -14,7 +14,7 @@ public:						// модификатор доступа публичный
 	int weight; 
 
 	void Print() {				// Метод класса Human
-		cout << "Имя: " << name << " " << "Вес: " << weight << " " << "Возраст: " << age << endl;
+		cout << " Имя: " << name << " " << " Вес: " << weight << " " << " Возраст: " << age << endl;
 	}
 };
 
