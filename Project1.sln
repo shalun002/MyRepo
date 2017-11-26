@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy objects", "Copy object
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator overloading", "operator overloading\operator overloading.vcxproj", "{939AC59F-E5B4-4163-BAB6-90C776717779}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator  + and - overloading", "operator  + and - overloading\operator  + and - overloading.vcxproj", "{4DB310A8-7869-4693-A4CF-BBC95808763F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{939AC59F-E5B4-4163-BAB6-90C776717779}.Release|x64.Build.0 = Release|x64
 		{939AC59F-E5B4-4163-BAB6-90C776717779}.Release|x86.ActiveCfg = Release|Win32
 		{939AC59F-E5B4-4163-BAB6-90C776717779}.Release|x86.Build.0 = Release|Win32
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Debug|x64.ActiveCfg = Debug|x64
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Debug|x64.Build.0 = Debug|x64
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Debug|x86.Build.0 = Debug|Win32
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Release|x64.ActiveCfg = Release|x64
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Release|x64.Build.0 = Release|x64
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Release|x86.ActiveCfg = Release|Win32
+		{4DB310A8-7869-4693-A4CF-BBC95808763F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
