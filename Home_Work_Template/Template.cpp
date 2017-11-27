@@ -85,7 +85,7 @@ void bubbleSort(T arr[], int size) {
 
 //-----------------------------------------------------------------------------------------------------------------------------------
 
-template <typename T> // replacement
+template <typename T> // шаблонна€ функци€ дл€ замены элемента массива
 void RepArrayElement(T arr[], int x, int number, int size) {
 	cout << endl;
 	if (size < 1) {
@@ -111,10 +111,10 @@ void RepArrayElement(T arr[], int x, int number, int size) {
 int main(){
 	setlocale(LC_ALL, "ru");
 
-	int arr[10] = { 2, 3, 7, 9, 6, 3, 1, 5, 2, 8 };
+	int arr[10] = { 2, 3, 7, 9, 6, 3, 1, 5, 2, 8 }; // объ€вление массива и его инициализаци€
 
-	cout << "min " << getFuncArrMin(arr, 10) << endl << endl;
-	cout << "max " << getFuncArrMax(arr, 10) << endl << endl;
+	cout << "min " << getFuncArrMin(arr, 10) << endl << endl; // вывод в консоль шаблонной функции дл€ поиска минимума.
+	cout << "max " << getFuncArrMax(arr, 10) << endl << endl; // вывод в консоль шаблонной функции дл€ поиска максимума.
 
 	// функци€ сортировки
 	bubbleSort(arr, 10);  // 10 - размер массива, arr - сам массив.
