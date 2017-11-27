@@ -8,10 +8,12 @@ using namespace std;
 переданное значение.
 */
 
-template <typename T>  // шаблонная функция .
-T FuncArrMin(T *arr[], int size) {
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+template <typename T>  // шаблонная функция для поиска минимума .
+T getFuncArrMin(T arr[], int size) {
 	if (size < 1) {
-		cout << "array is empty!" << endl;
+		cout << "Массив пуст! " << endl;
 	}
 	T min = arr[0];
 	for (int i = 0; i < size; ++i) {
@@ -22,14 +24,107 @@ T FuncArrMin(T *arr[], int size) {
 	return min;
 }
 
+//-----------------------------------------------------------------------------------------------------------------------------------
 
-int main() 
-{
+template <typename T>  // шаблонная функция для поиска максимума.
+T getFuncArrMax(T arr[], int size) {
+	if (size < 1) {
+		cout << "Массив пуст! " << endl;
+	}
+	T max = arr[0];
+	for (int i = 0; i < size; ++i) {
+		if (arr[i] > max) {
+			max = arr[i];
+		}
+	}
+	return max;
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+template <typename T1, typename T2>			 //  функции для поиска в массиве
+T1 SearchArrayElement(T1 arr[], T2 number, int size) {
+	if (size < 1) {
+		cout << "Массив пуст! ";
+	}
+	for (int i = 0; i < size; i++) {
+		if (arr[i] == number) {
+			cout << endl;
+			cout << "Число, которое вы искали! - Получите, распишитесь: " << number << endl;
+			cout << endl;
+		/*else {
+			cout << " Нет такого числа! " << number << endl;
+			}	*/
+		}
+	}
+	return number;
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+template <typename T>  // шаблонная функция для сортировки массива.
+void bubbleSort(T arr[], int size) {
+	if (size < 1) {
+		cout << "Массив пуст! " << endl;
+	}
+	T temp = 0;
+	for (int i = 0; i < size - 1; ++i) {    // i - номер прохода
+		for (int j = 0; j < size - 1; ++j) {   // внутренний цикл прохода
+			if (arr[j + 1] < arr[j]) {
+				temp = arr[j + 1];
+				arr[j + 1] = arr[j];
+				arr[j] = temp;
+			}
+		}
+	}
+	for (int i = 0; i < size; ++i) {			// Вывод массива в консоль
+		cout << arr[i] << " ";
+	}
+	cout << endl; // перенос строки
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------
+
+template <typename T> // replacement
+void RepArrayElement(T arr[], int x, int number, int size) {
+	cout << endl;
+	if (size < 1) {
+		cout << "Array is empty";
+	}
+
+	cout << "Число, на которое нужно заменить элемент массива: " << x << endl;
+	cout << endl;
+
+	for (int i = 0; i < size; i++)
+	{
+		if (arr[i] == arr[number]) {
+			arr[i] = x;
+		}
+	}
+	for (int i = 0; i < size; ++i)
+	{
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+}
+
+int main(){
 	setlocale(LC_ALL, "ru");
 
 	int arr[10] = { 2, 3, 7, 9, 6, 3, 1, 5, 2, 8 };
 
-	cout << FuncArrMin << endl;
+	cout << "min " << getFuncArrMin(arr, 10) << endl << endl;
+	cout << "max " << getFuncArrMax(arr, 10) << endl << endl;
+
+	// функция сортировки
+	bubbleSort(arr, 10);  // 10 - размер массива, arr - сам массив.
+
+	// вызываем функцию и передаем ей параметры (arr, 5, 10)
+	SearchArrayElement(arr, 5, 10);		// 10 - размер массива, 5 - число, которое нужно найти в массиве		
+
+	// вызываем функцию и передаем ей параметры (arr, 22, 9, 10)
+	RepArrayElement(arr, 22, 9, 10);  // 10 - размер массива, 9 - число находящееся в массиве, 22 - число, которое нужно заменить в массиве, arr - сам массив.
+	
 
 	system("pause");
 	return 0;
