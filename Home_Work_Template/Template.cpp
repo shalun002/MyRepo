@@ -12,12 +12,12 @@ using namespace std;
 
 template <typename T>  // шаблонная функция для поиска минимума .
 T getFuncArrMin(T arr[], int size) {
-	if (size < 1) {
+	if (size < 1) {		// если размер массива меньше 1, то выводить в консоль "Массив пустой"
 		cout << "Массив пуст! " << endl;
 	}
-	T min = arr[0];
-	for (int i = 0; i < size; ++i) {
-		if (arr[i] < min) {
+	T min = arr[0];  
+	for (int i = 0; i < size; ++i) {	// пробегаем по массиву
+		if (arr[i] < min) { 
 			min = arr[i];
 		}
 	}
@@ -28,7 +28,7 @@ T getFuncArrMin(T arr[], int size) {
 
 template <typename T>  // шаблонная функция для поиска максимума.
 T getFuncArrMax(T arr[], int size) {
-	if (size < 1) {
+	if (size < 1) {		// если размер массива меньше 1, то выводить в консоль "Массив пустой"	
 		cout << "Массив пуст! " << endl;
 	}
 	T max = arr[0];
@@ -44,7 +44,7 @@ T getFuncArrMax(T arr[], int size) {
 
 template <typename T1, typename T2>			 //  функции для поиска в массиве
 T1 SearchArrayElement(T1 arr[], T2 number, int size) {
-	if (size < 1) {
+	if (size < 1) {		// если размер массива меньше 1, то выводить в консоль "Массив пустой"
 		cout << "Массив пуст! ";
 	}
 	for (int i = 0; i < size; i++) {
@@ -64,7 +64,7 @@ T1 SearchArrayElement(T1 arr[], T2 number, int size) {
 
 template <typename T>  // шаблонная функция для сортировки массива.
 void bubbleSort(T arr[], int size) {
-	if (size < 1) {
+	if (size < 1) {		// если размер массива меньше 1, то выводить в консоль "Массив пустой"
 		cout << "Массив пуст! " << endl;
 	}
 	T temp = 0;
@@ -88,24 +88,23 @@ void bubbleSort(T arr[], int size) {
 template <typename T> // шаблонная функция для замены элемента массива
 void RepArrayElement(T arr[], int x, int number, int size) {
 	cout << endl;
-	if (size < 1) {
+	if (size < 1) {		// если размер массива меньше 1, то выводить в консоль "Массив пустой"
 		cout << "Array is empty";
 	}
 
 	cout << "Число, на которое нужно заменить элемент массива: " << x << endl;
 	cout << endl;
 
-	for (int i = 0; i < size; i++)
-	{
-		if (arr[i] == arr[number]) {
+	for (int i = 0; i < size; i++) { // пробегаем по массиву
+		if (arr[i] == arr[number]) {  /* если элемент массива равен числу, которое мы указали при вызове функции, то этот элемент заменить на то число, которое мы передали
+										 т.е. arr[i] (9) = x (22). Таким образом мы элемент массива 9 заменяем на число 22*/
 			arr[i] = x;
 		}
 	}
-	for (int i = 0; i < size; ++i)
-	{
+	for (int i = 0; i < size; ++i) {   // пробегаем по массиву еще раз и уже выводим его в консоль с новым значением
 		cout << arr[i] << " ";
 	}
-	cout << endl;
+	cout << endl << endl;
 }
 
 int main(){
