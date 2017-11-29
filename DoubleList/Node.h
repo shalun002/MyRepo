@@ -1,13 +1,12 @@
 #pragma once
 
 template<typename T>
-class Node
-{
+class Node {
 	T value;
-	Node *previus, *next;
+	Node<T> *previus, *next;
 public:
 	Node();
-	Node(T);
+	Node(const T &);
 	~Node();
 };
 

@@ -7,7 +7,7 @@ Node<T>::Node()
 }
 
 template<typename T>
-Node<T>::Node(T)
+Node<T>::Node(const T &value)
 {
 	this->value = value;
 	previus = next = NULL;
