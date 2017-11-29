@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "classDoubleLinkList.h"
+#include "DoubleLinkList.h"
 
 // реализация фукции класса
 template<typename T>
