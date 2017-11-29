@@ -2,17 +2,17 @@
 #include "Node.h"
 
 //описание класса двусвязный список и прототипы его функций
-template<typename T>
+//template<typename T>
 class DoubleLinkList{
 
 public:
-	Node<T> *first, *last;
+	Node *first, *last;
 	//пустой конструктор для создания двусвязного списка
 	DoubleLinkList();
 	~DoubleLinkList();
 
-	void addToLast(const T &);
-	void addToFirst(const T &);
+	void addToLast(const int &);
+	void addToFirst(const int &);
 	void show();
 };
 
