@@ -15,6 +15,6 @@ Node<T>::Node(const T &value)
 
 
 template<typename T>
-Node::~Node()
+Node<T>::~Node()
 {
 }
