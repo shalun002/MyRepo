@@ -21,7 +21,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DoubleLinkList.h">
+    <ClInclude Include="classElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classDoubleLinkList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +35,10 @@
     <ClCompile Include="DoubleList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DoubleLinkList.cpp">
+    <ClCompile Include="classElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classDoubleLinkList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

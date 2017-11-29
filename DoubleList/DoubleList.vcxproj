@@ -143,12 +143,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DoubleLinkList.h" />
+    <ClInclude Include="classElement.h" />
+    <ClInclude Include="classDoubleLinkList.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DoubleLinkList.cpp" />
+    <ClCompile Include="classElement.cpp" />
+    <ClCompile Include="classDoubleLinkList.cpp" />
     <ClCompile Include="DoubleList.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
