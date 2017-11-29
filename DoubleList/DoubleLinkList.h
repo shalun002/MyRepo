@@ -11,6 +11,6 @@ public:
 	DoubleLinkList();
 	~DoubleLinkList();
 
-	void add(const T);
+	void add(const T &);
 };
 
