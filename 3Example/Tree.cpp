@@ -13,13 +13,13 @@ Tree<T>::~Tree()
 }
 
 template<typename T>
-void Tree<T>::add(const T &value, Hode<T> &root = this->root)
+inline void Tree<T>::add(const T &value, Nod<T> &root = this->root)
 {
 	if (root == NULL) {
 		root = new Nod<T>(value);
 	}
 	else {
-		Node<T> *temp = root;
+		Nod<T> *temp = root;
 		if (root->value < value) {
 			if (root->right == NULL) {
 				root->right = new Nod<T>(value);
@@ -37,4 +37,17 @@ void Tree<T>::add(const T &value, Hode<T> &root = this->root)
 			}
 		}
 	}
+}
+
+template<typename T>
+void Tree<T>::show(Nod<T> &temp)
+{
+	{
+		if (root != NULL) {
+			cout << root->value;
+			show(root->left);
+			show(root->right);
+		}
+	}
+	
 }

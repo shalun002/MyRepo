@@ -8,6 +8,7 @@ public:
 	Tree();
 	~Tree();
 
-	void add(const T &, Hode<T> &);
+	void add(const T &, Nod<T> &temp = NULL);
+	void show(Nod<T> &temp = NULL);
 };
 
