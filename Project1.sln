@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modifier", "Modifier\Modifier.vcxproj", "{D33CA00A-982F-45E6-9F95-91AEB6F95B94}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Agregation", "Agregation\Agregation.vcxproj", "{B228B163-2714-4F9B-9AFF-B3CCBC80494F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheiritance", "Inheiritance\Inheiritance.vcxproj", "{4BA13A19-84DA-4575-A2ED-C89A918C6950}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW_1511965687", "HW_1511965687\HW_1511965687.vcxproj", "{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,14 @@ Global
 		{4BA13A19-84DA-4575-A2ED-C89A918C6950}.Release|x64.Build.0 = Release|x64
 		{4BA13A19-84DA-4575-A2ED-C89A918C6950}.Release|x86.ActiveCfg = Release|Win32
 		{4BA13A19-84DA-4575-A2ED-C89A918C6950}.Release|x86.Build.0 = Release|Win32
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Debug|x64.ActiveCfg = Debug|x64
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Debug|x64.Build.0 = Debug|x64
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Debug|x86.Build.0 = Debug|Win32
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Release|x64.ActiveCfg = Release|x64
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Release|x64.Build.0 = Release|x64
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Release|x86.ActiveCfg = Release|Win32
+		{D2E2065B-28B7-4656-BFCD-B92CE3BB6E68}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
