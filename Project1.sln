@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modifier", "Modifier\Modifier.vcxproj", "{D33CA00A-982F-45E6-9F95-91AEB6F95B94}"
 EndProject
@@ -68,6 +68,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exceptions", "Exceptions\Exceptions.vcxproj", "{28615EA7-8D51-4C65-9604-323CABB221B4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Meeting_22", "Meeting_22\Meeting_22.vcxproj", "{E37258AD-7CAE-400A-8DB1-3354559D83D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Namespace", "Namespace\Namespace.vcxproj", "{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -341,6 +343,14 @@ Global
 		{E37258AD-7CAE-400A-8DB1-3354559D83D0}.Release|x64.Build.0 = Release|x64
 		{E37258AD-7CAE-400A-8DB1-3354559D83D0}.Release|x86.ActiveCfg = Release|Win32
 		{E37258AD-7CAE-400A-8DB1-3354559D83D0}.Release|x86.Build.0 = Release|Win32
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Debug|x64.ActiveCfg = Debug|x64
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Debug|x64.Build.0 = Debug|x64
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Debug|x86.Build.0 = Debug|Win32
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Release|x64.ActiveCfg = Release|x64
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Release|x64.Build.0 = Release|x64
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Release|x86.ActiveCfg = Release|Win32
+		{1D42FC84-49D0-40E9-AE03-74BC3E84AC38}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
