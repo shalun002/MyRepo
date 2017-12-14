@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Namespace", "Namespace\Name
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Type conversion", "Type conversion\Type conversion.vcxproj", "{56E23A90-A678-449F-B104-AC4DAE846A0A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassWork", "ClassWork\ClassWork.vcxproj", "{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{56E23A90-A678-449F-B104-AC4DAE846A0A}.Release|x64.Build.0 = Release|x64
 		{56E23A90-A678-449F-B104-AC4DAE846A0A}.Release|x86.ActiveCfg = Release|Win32
 		{56E23A90-A678-449F-B104-AC4DAE846A0A}.Release|x86.Build.0 = Release|Win32
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Debug|x64.ActiveCfg = Debug|x64
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Debug|x64.Build.0 = Debug|x64
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Debug|x86.ActiveCfg = Debug|Win32
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Debug|x86.Build.0 = Debug|Win32
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Release|x64.ActiveCfg = Release|x64
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Release|x64.Build.0 = Release|x64
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Release|x86.ActiveCfg = Release|Win32
+		{5A8F8DEA-1D1F-4D5B-9F15-C54B41E55F77}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
