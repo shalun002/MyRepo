@@ -1,7 +1,10 @@
-//#include <iostream>
-//#include <string>
-//#include <fstream>
-//using namespace std;
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <iostream>
+#include <cereal/archives/xml.hpp>
+#include <cereal/types/vector.hpp>
+using namespace std;
 
 
 //int main() {
@@ -96,13 +99,12 @@
 //		arr);
 //}
 
-#include <iostream>
-#include <cereal/archives/xml.hpp>
-#include <cereal/types/vector.hpp>
+
 
 int main()
 {
-	cereal::XMLOutputArchive archive(std::cout);
+	std::ofstream file("out.xml"); // записывает в файл
+	cereal::XMLOutputArchive archive(file);
 	bool arr[] = { true, false };
 	std::vector<int> vec = { 1, 2, 3, 4, 5 };
 	archive(CEREAL_NVP(vec),
