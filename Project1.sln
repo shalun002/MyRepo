@@ -25,7 +25,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy objects", "Copy object
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator overloading", "operator overloading\operator overloading.vcxproj", "{939AC59F-E5B4-4163-BAB6-90C776717779}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator  + and - overloading", "operator  + and - overloading\operator  + and - overloading.vcxproj", "{4DB310A8-7869-4693-A4CF-BBC95808763F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "перегрузка оператора + и -", "operator  + and - overloading\operator  + and - overloading.vcxproj", "{4DB310A8-7869-4693-A4CF-BBC95808763F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Function templates", "Function templates\Function templates.vcxproj", "{CEC84638-2AB0-436C-A7AA-44794A30B6DB}"
 EndProject
