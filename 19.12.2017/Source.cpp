@@ -31,16 +31,26 @@ void auto_ptr() {
 	std::cout << b->value << std::endl;
 }
 
-void shared_ptr() {
+void shared_ptr() { 
 	std::shared_ptr<int> x(new int(5));
-	std::cout << x.use_count();
+	std::cout << x.use_count() << std::endl;
+	std::shared_ptr<int> y = x;
+	std::cout << x.use_count() << std::endl;
+}
+
+void use_count(std::shared_ptr<int> & x) {
+	std::cout << x.use_count() << std::endl;
+}
+
+void unique_ptr() {
+	std::unique_ptr<int> x(new int(5));
 }
 
 int main() 
 {
 	auto_ptr();
-	shared_ptr();
-	
+	std::shared_ptr<int> x(new int(5));
+ 
 	
 	/*A a;
 	a.value = 10;
