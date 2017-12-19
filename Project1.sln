@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassWork", "ClassWork\Clas
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.12.2017", "19.12.2017\19.12.2017.vcxproj", "{DA95443A-1ECF-43A0-B54C-602B54369407}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Разница дат", "Разница дат\Разница дат.vcxproj", "{B583BDF9-7634-4080-88BE-0A21B862A94A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -381,6 +383,14 @@ Global
 		{DA95443A-1ECF-43A0-B54C-602B54369407}.Release|x64.Build.0 = Release|x64
 		{DA95443A-1ECF-43A0-B54C-602B54369407}.Release|x86.ActiveCfg = Release|Win32
 		{DA95443A-1ECF-43A0-B54C-602B54369407}.Release|x86.Build.0 = Release|Win32
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Debug|x64.ActiveCfg = Debug|x64
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Debug|x64.Build.0 = Debug|x64
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Debug|x86.Build.0 = Debug|Win32
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Release|x64.ActiveCfg = Release|x64
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Release|x64.Build.0 = Release|x64
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Release|x86.ActiveCfg = Release|Win32
+		{B583BDF9-7634-4080-88BE-0A21B862A94A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
