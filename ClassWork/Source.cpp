@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+//#include <iostream>
+//#include <string>
 #include <fstream>
 #include <iostream>
 #include <cereal/archives/xml.hpp>
@@ -35,7 +35,6 @@ using namespace std;
 //	system("pause");
 //	return 0;
 //}
-
 
 //#include <cereal/types/unordered_map.hpp>
 //#include <cereal/types/memory.hpp>
@@ -85,7 +84,6 @@ using namespace std;
 //	return 0;
 //}
 
-
 //#include <iostream>
 //#include <cereal/archives/json.hpp>
 //#include <cereal/types/vector.hpp>
@@ -99,14 +97,12 @@ using namespace std;
 //		arr);
 //}
 
-
-
-int main()
-{
-	std::ofstream file("out.xml"); // записывает в файл
-	cereal::XMLOutputArchive archive(file);
-	bool arr[] = { true, false };
-	std::vector<int> vec = { 1, 2, 3, 4, 5 };
-	archive(CEREAL_NVP(vec),
-		arr);
-}
+//int main()
+//{
+//	std::ofstream file("out.xml"); // записывает в файл
+//	cereal::XMLOutputArchive archive(file);
+//	bool arr[] = { true, false };
+//	std::vector<int> vec = { 1, 2, 3, 4, 5 };
+//	archive(CEREAL_NVP(vec),
+//		arr);
+//}
