@@ -44,7 +44,7 @@ void List() {
 	std::cout << std::endl;
 }
 int main() {
-
+	setlocale(LC_ALL, "ru");
 	Vector();
 	
 	List();
