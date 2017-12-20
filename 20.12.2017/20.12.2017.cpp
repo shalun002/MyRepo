@@ -33,7 +33,7 @@ void Map() {
 void List() {
 	int arr[10] = { 1,2,3,4,5,6,7,8,9,0 };
 	std::list <int> y(arr, arr + 10);
-	y.sort();     // сортировка массива
+	y.sort();     // сортировка массива раз
 	auto it1 = y.begin();
 	for (; it1 != y.end(); ++it1)
 	{
