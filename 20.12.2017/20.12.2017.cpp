@@ -11,9 +11,11 @@ void Vector() {
 	std::vector <int> ::iterator it = x.begin(); 
 	for (; it != x.end(); ++it)
 	{
+		
 		std::cout << *it << '\t';
 	}
 	std::cout << std::endl;
+	std::cout << "Vector" << std::endl;
 
 }
 void Map() {
@@ -25,20 +27,30 @@ void Map() {
 		std::cout << it2->first << '\t' << it2->second << '\t';
 	}
 	std::cout << std::endl;
+	std::cout << "Map" << std::endl;
+	std::cout << std::endl;
 }
 void List() {
 	int arr[10] = { 1,2,3,4,5,6,7,8,9,0 };
 	std::list <int> y(arr, arr + 10);
+	y.sort();     // сортировка массива
 	auto it1 = y.begin();
 	for (; it1 != y.end(); ++it1)
 	{
 		std::cout << *it1 << '\t';
 	}
 	std::cout << std::endl;
+	std::cout << "List" << std::endl;
+	std::cout << std::endl;
 }
 int main() {
 
-
+	Vector();
+	
+	List();
+	
+	Map();
+	
 
 
 
