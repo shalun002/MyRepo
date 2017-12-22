@@ -12,7 +12,7 @@
 int main() {
 
 	srand(time(NULL));
-	std::vector< int > x(20);
+	std::vector< int > x(9);
 	std::for_each(x.begin(), x.end(), [](int &a) { a = rand() % 10; std::cout << a << " "; });
 	
 	std::cout << std::endl;
