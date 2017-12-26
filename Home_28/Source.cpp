@@ -53,6 +53,10 @@ public:
 			while (in.eof()) {
 				std::string s;
 				std::getline(in, s);
+				if(s.empty())
+				{
+					return;
+				}
 				int position = s.find_first_of(' ');
 				cities.push_back(
 					City(
