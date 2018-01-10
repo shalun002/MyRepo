@@ -1,0 +1,33 @@
+#pragma once
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <vector>
+#include "Menu.h"
+
+class Student
+{
+public:
+	std::string name;  //имя студента
+	std::string cource;  // курс студента
+	std::string subject; // тест по предмету т.е предмет
+
+	void studentInfo()
+	{
+		std::cout << " Введите имя: "; std::cin >> name;
+		std::cout << " Введите курс: "; std::cin.ignore() >> cource;
+		std::cout << " Выберите предмет: ";
+		std::cout << std::endl;
+		Menu::Menu::menu(); // вызов функции меню
+	}
+
+	Student(std::string &name, std::string &corce, std::string &subject)
+	{
+		this->name = name;
+		this->cource = corce;
+		this->subject = subject;
+	}
+
+	Student() {}
+	~Student() {};
+};

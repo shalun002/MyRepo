@@ -9,5 +9,7 @@ public:
 	Player();
 	~Player();
 
+	int cnt = 0;
+	int choice;
 };
 
