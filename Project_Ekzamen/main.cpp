@@ -1,20 +1,15 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include <fstream>
-#include <algorithm>
-#include <functional>
-
-class Student;
-class Russian;
-class Matem;
-class History;
-class Menu;
-
+#include "Russian.h"
 
 class Menu
 {
 public:
+
+	Menu() {}
+	~Menu() {}
+
 	static void menu()
 	{
 		while (true) {
@@ -32,18 +27,17 @@ public:
 			switch (choiсe) {
 			case 1: system("cls");
 				std::cout << " Вы выбрали тест по предмету русский язык " << std::endl;
-				Russian::start(); 
+				Russian::start();
 				break;
 			case 2: system("cls");  break;
 			case 3: system("cls");  break;
 			case 4: system("cls");  break;
-			case 0: return;
+			case 5: default:
+				break;
 			}
+			break;
 		}
-
 	}
-	
-	Menu();
 };
 
 
@@ -54,7 +48,7 @@ public:
 	std::string cource;  // курс студента
 	std::string subject; // тест по предмету т.е предмет
 
-	 void studentInfo()
+	void studentInfo()
 	{
 		std::cout << " Введите имя: "; std::cin >> name;
 		std::cout << " Введите курс: "; std::cin.ignore() >> cource;
@@ -62,8 +56,8 @@ public:
 		std::cout << std::endl;
 		Menu::Menu::menu(); // вызов функции меню
 	}
-	
-	Student(std::string &name, std::string &corce, std::string &subject) 
+
+	Student(std::string &name, std::string &corce, std::string &subject)
 	{
 		this->name = name;
 		this->cource = corce;
@@ -73,45 +67,6 @@ public:
 	Student() {}
 	~Student() {};
 };
-
-class Russian
-{
-public:
-
-	static void start()
-	{
-		char y, n, x;
-		std::cout << " Начать тест? yes/no "; std::cin >> x;
-
-		if (x == y)
-		{
-			std::cout << " \tТест начат " << std::endl;
-			Test();
-		}
-		else if (x == n)
-		{
-			std::cout << " \tТест закончен " << std::endl;
-			return Menu::Menu::menu();
-		}
-	}
-
-	static void Test()
-	{
-
-	}
-};
-
-class Matem
-{
-
-};
-
-class History
-{
-
-};
-
-
 
 
 int main()
@@ -123,9 +78,4 @@ int main()
 
 	system("pause");
 	return 0;
-}
-
-Menu::Menu()
-{
-
 }
