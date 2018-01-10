@@ -2,7 +2,6 @@
 #include <string>
 #include <fstream>
 #include "Russian.h"
-#include <Windows.h>
 
 class Menu
 {
