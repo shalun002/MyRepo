@@ -1,5 +1,6 @@
 #pragma once
-#include "Quiz.h"
+#include "QuizRussian.h"
+#include "QuizMatem.h"
 
 
 class Player

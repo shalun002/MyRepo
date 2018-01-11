@@ -7,6 +7,8 @@
 
 class Student
 {
+	Menu menu;
+
 public:
 	std::string name;  //имя студента
 	std::string cource;  // курс студента
@@ -18,11 +20,11 @@ public:
 		{
 			std::cout << std::endl;
 			system("cls");
-			std::cout << " Введите имя: "; std::cin >> name;
-			std::cout << " Введите курс: "; std::cin.ignore() >> cource;
-			std::cout << " Выберите предмет: ";
+			std::cout << " Enter your name: "; std::cin >> name;
+			std::cout << " Enter a course: "; std::cin.ignore() >> cource;
+			std::cout << " Select a subject: ";
 			std::cout << std::endl;
-			Menu::Menu::menu(); // вызов функции меню
+			menu.menu(); // вызов функции меню
 		}
 		
 	}

@@ -116,20 +116,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="History.cpp" />
+    <ClCompile Include="QuizHistory.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matem.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Question.cpp" />
-    <ClCompile Include="Quiz.cpp" />
+    <ClCompile Include="QuizMatem.cpp" />
+    <ClCompile Include="QuizRussian.cpp" />
     <ClCompile Include="Russian.cpp" />
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="History.h" />
+    <ClInclude Include="QuizHistory.h" />
+    <ClInclude Include="Matem.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Question.h" />
-    <ClInclude Include="Quiz.h" />
+    <ClInclude Include="QuizMatem.h" />
+    <ClInclude Include="QuizRussian.h" />
     <ClInclude Include="Russian.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>

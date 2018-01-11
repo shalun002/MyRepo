@@ -10,8 +10,9 @@ class App;
 class Menu;
 class Player;
 class Question;
-class Quiz;
+class QuizRussian;
 class Russian;
+class QuizMatem;
 
 
 

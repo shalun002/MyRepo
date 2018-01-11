@@ -5,20 +5,21 @@
 #include <vector>
 #include "Question.h"
 
-class Quiz
+class QuizHistory
 {
 public:
-	Quiz();
-	~Quiz();
+
+	QuizHistory();
+	~QuizHistory();
 
 	std::string var;
 	std::vector<Question> questions; // vector whith questions
 
 	void retrieveQuestions() {
-		std::ifstream fin("Russian.txt"); // create file and read it
+		std::ifstream fin("History.txt"); // create file and read it
 		if (!fin.is_open())  // проверка файла
 		{
-			std::cout << " Файл не найден " << std::endl;
+			std::cout << " File not found " << std::endl;
 		}
 		else if (fin.is_open()) {
 			std::string temp; // создаем временную переменну temp типа string
@@ -41,6 +42,5 @@ public:
 	void startQuiz() {
 
 	}
-
 };
 

@@ -2,16 +2,16 @@
 #include <iostream>
 #include <fstream>
 #include "QuizRussian.h"
+#include "QuizMatem.h"
+#include "QuizHistory.h"
 #include "App.h"
 
-
-
-class Russian
+class Matem
 {
 public:
 
-	Russian();
-	~Russian();
+	Matem();
+	~Matem();
 
 	static void start()
 	{
@@ -26,3 +26,4 @@ public:
 		app.start();
 	}
 };
+

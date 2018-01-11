@@ -3,10 +3,14 @@
 #include <fstream>
 #include <vector>
 #include "Russian.h"
+#include "Matem.h"
+#include "History.h"
+
 
 
 class Menu
 {
+
 public:
 
 	Menu();
@@ -16,32 +20,36 @@ public:
 	{
 		while (true) {
 			std::cout << std::endl;
-			std::cout << " 1. Тест по предмету русский язык " << std::endl;
-			std::cout << " 2. Тест по предмету математика " << std::endl;
-			std::cout << " 3. Тест по предмету история " << std::endl;
-			std::cout << " 4. Пройти тест в другое время " << std::endl;
+			std::cout << "\t 1. Russian Language Test " << std::endl;
+			std::cout << "\t 2. Math test " << std::endl;
+			std::cout << "\t 3. Subject test history " << std::endl;
+			std::cout << "\t 4. Take the test at another time " << std::endl;
 			std::cout << std::endl;
-			std::cout << "-------------------------------------" << std::endl;
+			std::cout << "\t----------------------------------" << std::endl;
 			std::cout << std::endl;
 
 			int choiсe;
-			std::cout << "Ваш выбор - "; std::cin >> choiсe;
+			std::cout << " Your choice - "; std::cin >> choiсe;
 			switch (choiсe) {
 			case 1: system("cls");
-				std::cout << " Вы выбрали тест по предмету русский язык " << std::endl;
+				std::cout << " You have chosen the test in Russian language" << std::endl;
 				Russian::start();
 				break;
-			case 2: system("cls");/*
-				std::cout << " Вы выбрали тест по предмету математика " << std::endl;
-				Russian::start();*/
+			case 2: system("cls");
+				std::cout << " You have chosen a test in the subject of mathematics" << std::endl;
+				Matem::start();
 				break;
-			case 3: system("cls");/*
-				std::cout << " Вы выбрали тест по предмету история " << std::endl;
-				Russian::start();*/
+			case 3: system("cls");
+				std::cout << " You chose a test on the subject of the story " << std::endl;
+				History::start();
 				break;
-			case 4: system("cls"); /*
-				std::cout << " До новых встреч " << std::endl;
-				Russian::start();*/ 
+			case 4: system("cls"); 
+				std::cout << std::endl;
+				std::cout << std::endl;
+				std::cout << " ------------- Until next time ------------- " << std::endl;
+				std::cout << std::endl;
+				system("pause");
+				std::cout << std::endl;
 				break;
 			case 5: default:
 				break;
