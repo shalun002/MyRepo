@@ -1,78 +1,70 @@
-1. В VI веке до н.э. в Греции в составе персидской армии воевали:
-A) Саки.  +
-B) Савроматы.
-C) Кангюи.
-D) Гунны.
-E) Усуни.
-
-2. Основную массу населения Золотой Орды составляли:
-
-А)Канглы.
-B) Карлукн. 
-C) Кыпчаки.   +
-D) Наймаиы.
-E) Булгары.
-
-3. Руководитель восстания 1916 года в Семиречье
-
-A) Сакен Сейфуллин.
-B) Амангельды Иманов.
-C) Абдулгафар Джанбосынов.
-D) Токаш Бокин.   +
-E) Алиби Джангильдин.
-
-4. Относительной стабилизации экономической ситуации в 70-е годы XX века способствовал:
-
-A) Экспорт меди.
-B) Экспорт нефти.   +
-C) Экспорт пшеницы.
-D) Экспорт оружия.
-E) Экспорт станков.
-
-5. Казахстан 2 марта 1992г. стал равноправным членом:
-
-A) НАТО.
-B) ОБСЕ.
-C) ООН.   +
-D) ОЭС.
-E) АСЕАН.
-
-6. Первобытные люди объединялись в стадо в основном для:
-
-A) Изготовления оружия.
-B) Сохранения семьи.
-C) Совместного изготовления орудий труда.
-D) Совместной пахоты.
-E) Совместной Защиты и нападения.  +
-
-7. Свыше 30 поселений и более 150 могильников андроновской культуры найдены на территории:
-
-A) Центрального Казахстана.   +
-B) Южного Казахстана.
-C) Восточного Казахстана.
-D) Западного Казахстана.
-E) Северного Казахстана.
-
-8. Ханство Абулхаира существовало в период:
-
-A) 1438- 1478 гг.
-B) 1448-1488 гг.
-C) 1418-1458 гг.
-D) 1408-1448 гг.
-E) 1428-1468 гг.  +
-
-9. В казахском обществе претендовать на ханский титул могли
-
-A) Султаны-чингизиды.  +
-B) Баи;
-C) Эмиры.
-D) Батыры.
-E) Бии.
-
-10. Согласно "Положения" 1891 г. в Туркестанском крае:
-
-A) Упразднено генерал-губернаторство.
-B) Создано три области: Сырдарьинская, Ферганская, Самаркандская.  +
-C) Созданы две области: Сырдарьинская, Семиречснская.
-D) Создан Амударъинский отдел.
-E) Образована Область Сибирских киргизов.
+A. In the VI century BC. in Greece as part of the Persian army fought:
+	1. Saki.
+	2. Sauromats.
+	3. Kangyui.
+	4. Huns.
+	5. Usuni.
+	1. Saki.
+B. The bulk of the population of the Golden Horde were:
+	1. Cangles.
+	2. Karlukn.
+	3. The Kipchaks.
+	4. Naimai.
+	5. Bulgars.
+	3. The Kipchaks.
+C. The leader of the 1916 uprising in Semirechye
+	1. Saken Seifullin.
+	2. Amangeldy Imanov.
+	3. Abdulgafar Dzhanbosynov.
+	4. Tokash Bokin.
+	5. Alibi Jangildin.
+	4. Tokash Bokin.
+D. The relative stabilization of the economic situation in the 70 years of the XX century contributed to:
+	1. Export of copper.
+	2. Oil exports.
+	3. Wheat exports.
+	4. Export of weapons.
+	5. Export of machine tools.
+	2. Oil exports.
+E. Kazakhstan 2 March 1992. became an equal member:
+	1. NATO.
+	2. OSCE.
+	3. UN.
+	4. ECO.
+	5. ASEAN.
+	3. UN.
+F. Primitive people united in the herd mainly for:
+	1. Manufacture of weapons.
+	2. Preserving the family.
+	3. Joint manufacture of tools.
+	4. Joint plowing.
+	5. Joint Defense and Attack.
+	5. Joint Defense and Attack.
+G. Over 30 settlements and more than 150 burial grounds of Andronovo culture were found on the territory of:
+	1. of Central Kazakhstan.
+	2. of Southern Kazakhstan.
+	3. of East Kazakhstan.
+	4. of Western Kazakhstan.
+	5. of Northern Kazakhstan.
+	1. of Central Kazakhstan.
+H. The Khanate of Abulkhair existed during the period:
+	1. 1438-1478
+	2. 1448-1488 gg.
+	3. 1418-1458 years.
+	4. 1408-1448 years.
+	5. 1428-1468 gg.
+	5. 1428-1468 gg.
+I. In the Kazakh society, claiming the Khan's title could
+	1. Sultans Chingizids.
+	2. Bai;
+	3. Emirs.
+	4. Batyrs.
+	5. Bee.
+	1. Sultans Chingizids.
+J. According to the "Regulations" of 1891 in the Turkestan region:
+	1. General-governorship abolished.
+	2. Three areas have been created: Syr Darya, Ferghana, Samarkand.
+	3. Two areas have been created: the Syrdarya, the Semirechskaya.
+	4. The Amu Darya department was established.
+	5. The Siberian Kirghiz Region has been formed.
+	2. Three areas have been created: Syr Darya, Ferghana, Samarkand.

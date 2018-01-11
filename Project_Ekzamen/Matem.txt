@@ -1,79 +1,70 @@
-1. Радиусы оснований усеченного конуса 10 см, 4 см, высота 8 см. Найдите образующую 
-
-A) 20 см 
-B) 5 см 
-C) 100 см 
-D) 10 см 
-E) 6 см 
-
-2. Дано уравнение х2 + 7х + 1 = 0. Найти сумму квадратов его корней 
-
-A) 49 
-B) 65 
-C) 47 
-D) 25 
-E) 51 
-
-3. Записать в виде алгебраического выражения: разность произведения чисел m и n и квадрата числа k 
-
-A) k2 + mn 
-B) mn – 2k 
-C) mn – k2 
-D) (m – n) k2 
-E) (m – n) 2k 
-
-4. Решите неравенство: 
-
-A) (5; 4) 
-B) (1; -5) 
-C) (6; 1) 
-D) (-1; -3) 
-E) (-2; 3)
-
-5. Найдите углы параллелограмма, если один из них больше другого на 50о 
-
-A) 65о и 115о 
-B) 125о и 55о 
-C) 75о и 105о 
-D) 50о и 130о 
-E) 60о и 120о 
-
-6. За 2,5 кг баранины заплатили 475 тенге, тогда по той же цене на 665 тенге баранины можно купить 
-
-A) 5 кг 
-B) 3,25 кг 
-C) 4 кг 
-D) 3,5 кг 
-E) 3 кг 
-
-7. Выразите у через х из уравнения 10х – 5у – 7 = 0 
-
-A) у = 2х – 7 
-B) у = 2х + 1,4 
-C) у = 2х – 1,4 
-D) у = 2х + 7 
-E) у = –2х – 1,4 
-
-8. Найдите производную функции f (x) = 
-
-A) x 
-B) 3x4 
-C) 11x4 
-D) 7x4 
-E) x4 – 7
- 
-9. Найдите производную функции f (х) = 8х + ех 
-
-A) 8xln e 
-B) 8xln 8 + ex 
-C) xln 8 
-D) 8xln 8 
-E) 8xln x + e 
-
-10. Чему равен угол треугольника со сторонами 5 см, 12 см и 13 см, противолежащий стороне 13 см? 
-
-A) 30о 
-B) 90о 
-C) 45о 
-D) 25о 
-E) 60о 
+A. Radii of the bases of the truncated cone 10 cm, 4 cm, height 8 cm. Find the generatrix
+	1. 20 cm
+	2. 5 cm
+	3. 100 cm
+	4. 10 cm
+	5. 6 cm
+	2. 5 cm
+B. Given the equation x2 + 7x + 1 = 0. Find the sum of the squares of its roots
+	1. 49
+	2. 65
+	3. 47
+	4. 25
+	5. 51
+	2. 65
+C. Write in the form of an algebraic expression: the difference of the product of the numbers m and n and the square of the number k
+	1. k2 + mn
+	2. mn - 2k
+	3. mn-k2
+	4. (m - n) k2
+	5. (m - n) 2k
+	4. (m - n) k2
+D. Solve the inequality:
+	1. (5; 4)
+	2. (1; -5)
+	3. (6; 1)
+	4. (-1; -3)
+	5. (-2; 3)
+	3. (6; 1)
+E. Find the angles of the parallelogram if one of them is greater than the other by 50 °
+	1. 65 ° and 115 °
+	2. 125 ° and 55 °
+	3. 75 ° and 105 °
+	4. 50 ° and 130 °
+	5. 60 ° and 120 °
+	5. 60 ° and 120 °
+F. For 2.5 kg lamb paid 475 tenge, then at the same price for 665 tenge lamb can be bought
+	1. 5 kg
+	2. 3.25 kg
+	3. 4 kg
+	4. 3.5 kg
+	5. 3 kg
+	1. 5 kg
+G. Express y in terms of x from the equation 10x - 5y - 7 = 0
+	1. y = 2x - 7
+	2. y = 2x + 1.4
+	3. y = 2x - 1.4
+	4. y = 2x + 7
+	5. y = -2x - 1.4
+	4. y = 2x + 7
+H. Find the derivative of the function f (x) =
+	1. x
+	2. 3x4
+	3. 11x4
+	4. 7x4
+	5. x4 - 7
+    2. 3x4
+I. Find the derivative of the function f (x) = 8x + ex
+	1. 8xln e
+	2. 8xln 8 + ex
+	3. xln 8
+	4. 8xln 8
+	5. 8xln x + e
+	4. 8xln 8
+J. What is the angle of the triangle with sides of 5 cm, 12 cm and 13 cm, opposite the side of 13 cm?
+	1. 30 °
+	2. 90 °
+	3. 45 °
+	4. 25 °
+	5. 60 °
+	2. 90 °

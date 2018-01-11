@@ -1,12 +1,70 @@
-A. A company is contemplating whether to use a client/server or a peer-to-peer network. What are three characteristics of a peer-to-peer network?
-1. better security
-2. easy to create
-3. better device performance when acting as both client and server
-4. lacks centralized administration
-4. lacks centralized administration
-B.Which device performs the function of determining the path that messages should take through internetworks?
-1. a router*
-2. firewall
-3. web server
-4. DSL modem
-1. a router*
+A. Complex sentences with heterogeneous subordination:
+	1. No one suspected that in a modest young Frenchman there lurked a formidable robber, whose name terrified all the neighboring owners.
+	2. At the heart of all good manners is one concern that a person does not interfere with a person so that all together feel good.
+	3. When the young people left, Suzanne hurried so fast that she jumped into the cab, forgetting to say goodbye to Chamette.
+	4. He had no time - life in advance was designed so as to have time to write at least fifty novels
+	5. Pushkin is the best that is in each of us.
+	3. When the young people left, Suzanne hurried so fast that she jumped into the cab, forgetting to say goodbye to Chamette.
+B. Type of submission: When doing, remember that you need to be careful.
+	1. Inhomogeneous.
+	2. Consecutive.
+	3. Reconciliation.
+	4. Homogeneous.
+	5. Management.
+	1. Inhomogeneous.
+C. If two or more clauses of a different type are attached to one main clause in a sentence, then this
+	1. Complex sentence with homogeneous subordination.
+	2. Complicated sentence with consistent submission.
+	3. Complex sentence with heterogeneous subordination
+	4. A sentence with different types of communication.
+	5. Unions offer.
+	3. Complex sentence with heterogeneous subordination
+D. The scheme of the proposal. When she passed us, from her inexplicable aroma, which sometimes breathes a note of a sweet woman.
+	1. [ ], ( )
+	2. ( ), [ ], ( )
+	3. [ ], ( ), ( )
+	4. [], (), (), ().
+	5. (), [].
+	2. ( ), [ ], ( )
+E. A sentence with heterogeneous subordination
+	1. Complex sentence, where the first clause refers to the main clause, the second clause refers to the first clause, and so on.
+	2. Complex sentence, where two or more subordinate types of a different type refer to one main.
+	3. A complex sentence with a simultaneity value.
+	4. A sentence with different types of communication.
+	5. A non-union complex sentence with the value of simultaneity.
+	2. Complex sentence, where two or more subordinate types of a different type refer to one main.
+F. The scheme of the proposal. And when he was already dying, a white swan flew to him, which saved him from death and brought him to the shore of the lake.
+	1. [ ], ( ).
+	2. ( ), [ ].
+	3. [ ], ( ), ( ).
+	4. [], (), (), ().
+	5. (), [], ().
+	5. (), [], ().
+G. A complex sentence with heterogeneous subordination.
+	1. When this conversation was going on, we did not suspect that this night was the most damned of all nights.
+	2. The world does not take away from those whose hands held arms and inflamed teeth felt tears on the cheeks of orphaned children, whose eyes were seen and forever remembered the horrors of the last war.
+	3. A person can be recognized by the books he reads.
+	4. The mind - the ocean, you draw - does not end, the land - the treasury, digging - does not end.
+	5. He is not a man who hides his head, if he sees trouble over himself.
+	1. When this conversation was going on, we did not suspect that this night was the most damned of all nights.
+H. The scheme of the proposal. When Kalsha batyr woke up one day at dawn, next to him stood a white-faced girl, who used to be a swan.
+	1. [ ], ( ).
+	2. ( ), [ ], ( ).
+	3. [ ], ( ), ( )
+	4. [], (), (), ().
+	5. (), [].
+	2. ( ), [ ], ( ).
+I. Type of submission. When I have a new book in my hands, I feel that something alive, speaking, wonderful has entered my life.
+	1. Homogeneous.
+	2. Sequential.
+	3. Reconciliation.
+	4. Management.
+	5. Inhomogeneous.
+	5. Inhomogeneous.
+J. The scheme of the proposal. When she opened them again, Grieg noticed that her pupils were greenish.
+	1. [ , ( ), ].
+	2. ( ), [ ], ( ).
+	3. [ ], ( ).
+	4. [], (), (), ().
+	5. [], (), ().
+	2. ( ), [ ], ( ).

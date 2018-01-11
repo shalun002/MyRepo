@@ -14,11 +14,17 @@ public:
 
 	void studentInfo()
 	{
-		std::cout << " Введите имя: "; std::cin >> name;
-		std::cout << " Введите курс: "; std::cin.ignore() >> cource;
-		std::cout << " Выберите предмет: ";
-		std::cout << std::endl;
-		Menu::Menu::menu(); // вызов функции меню
+		while (true)
+		{
+			std::cout << std::endl;
+			system("cls");
+			std::cout << " Введите имя: "; std::cin >> name;
+			std::cout << " Введите курс: "; std::cin.ignore() >> cource;
+			std::cout << " Выберите предмет: ";
+			std::cout << std::endl;
+			Menu::Menu::menu(); // вызов функции меню
+		}
+		
 	}
 
 	Student();

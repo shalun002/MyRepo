@@ -27,7 +27,7 @@ public:
 				Question q; // creat Question's object
 				q.content = temp; // write the read string to the created variable for the question
 
-				for (int i = 0; i < 4; ++i) {
+				for (int i = 0; i < 5; ++i) {
 					getline(fin, temp); // read variants 
 					q.variants[i] = temp; // wright variants
 				}
