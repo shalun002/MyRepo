@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <fstream>
-#include "QuizRussian.h"
+#include "Quiz.h"
 #include "App.h"
 
 
@@ -22,7 +22,8 @@ public:
 		std::cout << " \t\t\tFor each question - 5 answers " << std::endl;
 		std::cout << std::endl;
 		std::cout << std::endl;
+
 		App app;
-		app.start();
+		app.start("Russian.txt");
 	}
 };

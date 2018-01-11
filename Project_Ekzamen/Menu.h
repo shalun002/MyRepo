@@ -32,14 +32,20 @@ public:
 			std::cout << " Your choice - "; std::cin >> choiñe;
 			switch (choiñe) {
 			case 1: system("cls");
+				std::cout << std::endl;
+				std::cout << std::endl;
 				std::cout << " You have chosen the test in Russian language" << std::endl;
 				Russian::start();
 				break;
 			case 2: system("cls");
+				std::cout << std::endl;
+				std::cout << std::endl;
 				std::cout << " You have chosen a test in the subject of mathematics" << std::endl;
 				Matem::start();
 				break;
 			case 3: system("cls");
+				std::cout << std::endl;
+				std::cout << std::endl;
 				std::cout << " You chose a test on the subject of the story " << std::endl;
 				History::start();
 				break;

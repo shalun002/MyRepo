@@ -3,6 +3,7 @@
 #include <fstream>
 #include <vector>
 #include "Student.h"
+#include <cstdlib>
 
 
 class Student;
@@ -10,7 +11,7 @@ class App;
 class Menu;
 class Player;
 class Question;
-class QuizRussian;
+class Quiz;
 class Russian;
 class QuizMatem;
 
@@ -19,6 +20,7 @@ class QuizMatem;
 
 int main()
 {
+	system("color 1F");
 	setlocale(LC_ALL, "RUSSIAN");
 
 	Student st;

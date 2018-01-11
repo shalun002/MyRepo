@@ -5,26 +5,25 @@
 #include <vector>
 #include "Question.h"
 
-class QuizHistory
+class Quiz
 {
 public:
-
-	QuizHistory();
-	~QuizHistory();
+	Quiz();
+	~Quiz();
 
 	std::string var;
 	std::vector<Question> questions; // vector whith questions
 
-	void retrieveQuestions() {
-		std::ifstream fin("History.txt"); // create file and read it
-		if (!fin.is_open())  // проверка файла
+	void retrieveQuestions(std::string filename ) {
+		std::ifstream fin(filename); // create file and read it
+		if (!fin.is_open())  // file validation
 		{
 			std::cout << " File not found " << std::endl;
 		}
 		else if (fin.is_open()) {
-			std::string temp; // создаем временную переменну temp типа string
+			std::string temp; // create a temporary temp variable of type string
 			while (!fin.eof()) {
-				getline(fin, temp); // cчитать первую строку
+				getline(fin, temp); // read the first line
 				Question q; // creat Question's object
 				q.content = temp; // write the read string to the created variable for the question
 
@@ -37,10 +36,6 @@ public:
 				questions.push_back(q);
 			}
 		}
-	}
-
-	void startQuiz() {
-
 	}
 };
 

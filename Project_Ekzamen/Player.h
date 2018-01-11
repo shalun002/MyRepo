@@ -1,7 +1,4 @@
 #pragma once
-#include "QuizRussian.h"
-#include "QuizMatem.h"
-
 
 class Player
 {

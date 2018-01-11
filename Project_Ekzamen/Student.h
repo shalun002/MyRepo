@@ -20,9 +20,12 @@ public:
 		{
 			std::cout << std::endl;
 			system("cls");
+			std::cout << std::endl;
+			std::cout << std::endl;
 			std::cout << " Enter your name: "; std::cin >> name;
 			std::cout << " Enter a course: "; std::cin.ignore() >> cource;
 			std::cout << " Select a subject: ";
+			std::cout << std::endl;
 			std::cout << std::endl;
 			menu.menu(); // вызов функции меню
 		}

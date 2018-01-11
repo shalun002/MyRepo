@@ -1,9 +1,7 @@
 #pragma once
 #include <iostream>
 #include <fstream>
-#include "QuizRussian.h"
-#include "QuizMatem.h"
-#include "QuizHistory.h"
+#include "Quiz.h"
 #include "App.h"
 
 
@@ -23,7 +21,7 @@ public:
 		std::cout << std::endl;
 		std::cout << std::endl;
 		App app;
-		app.start();
+		app.start("History.txt");
 	}
 };
 

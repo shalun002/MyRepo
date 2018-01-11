@@ -39,16 +39,10 @@
     <ClCompile Include="Matem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QuizRussian.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QuizMatem.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QuizHistory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="History.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,16 +68,10 @@
     <ClInclude Include="Matem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QuizRussian.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="QuizMatem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="QuizHistory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="History.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quiz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
