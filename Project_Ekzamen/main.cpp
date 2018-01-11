@@ -2,8 +2,8 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include "Student.h"
 #include <cstdlib>
+#include "Menu.h"
 
 
 class Student;
@@ -20,11 +20,8 @@ class QuizMatem;
 
 int main()
 {
-	system("color 1F");
-	setlocale(LC_ALL, "RUSSIAN");
-
-	Student st;
-	st.studentInfo();
+	Menu menu;
+	menu.menu();
 
 	system("pause");
 	return 0;

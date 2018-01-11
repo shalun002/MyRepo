@@ -3,33 +3,21 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include "Menu.h"
 
 class Student
 {
-	Menu menu;
-
 public:
-	std::string name;  //имя студента
+	std::string name;    // имя студента
 	std::string cource;  // курс студента
 	std::string subject; // тест по предмету т.е предмет
 
 	void studentInfo()
-	{
-		while (true)
-		{
-			std::cout << std::endl;
-			system("cls");
-			std::cout << std::endl;
-			std::cout << std::endl;
-			std::cout << " Enter your name: "; std::cin >> name;
-			std::cout << " Enter a course: "; std::cin.ignore() >> cource;
-			std::cout << " Select a subject: ";
-			std::cout << std::endl;
-			std::cout << std::endl;
-			menu.menu(); // вызов функции меню
-		}
-		
+	{	
+		std::cout << std::endl << std::endl;
+		std::cout << " Enter your name: "; std::cin >> name;           // Вводим имя студента
+		std::cout << " Enter a course: "; std::cin.ignore() >> cource; // Вводим курс
+		std::cout << " Select a subject: ";  
+		std::cout << std::endl << std::endl;				
 	}
 
 	Student();

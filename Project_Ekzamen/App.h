@@ -3,6 +3,8 @@
 #include <iostream>
 #include "Player.h"
 #include "Quiz.h"
+#include <conio.h>
+#include<Windows.h>
 
 
 class App
@@ -11,6 +13,7 @@ class App
 	Player player;
 
 public:
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 	App();
 	~App();
@@ -25,13 +28,25 @@ public:
 			std::cout << std::endl;
 			std::cout << " Your answer:  "; std::cin >> player.choice;
 			std::string s = quiz.questions[i].variants[player.choice - 1];
-			if (quiz.questions[i].variants[player.choice - 1] == quiz.questions[i].right) {
+			if (quiz.questions[i].variants[player.choice - 1] == quiz.questions[i].right) 
+			{
+				SetConsoleTextAttribute(hConsole, 2);
+				std::cout << " Your answer is correct\t" << std::endl;
+				SetConsoleTextAttribute(hConsole, 7);
+				std::cout << std::endl;
+				
 				++player.cnt;
 			}
+			else 
+			{
 				std::cout << std::endl;
+				SetConsoleTextAttribute(hConsole, 12);
 				std::cout << " Your answer -\t" << quiz.questions[i].variants[player.choice - 1] << std::endl;
+				SetConsoleTextAttribute(hConsole, 2);
 				std::cout << " Correct answer -  " << quiz.questions[i].right << std::endl;
+				SetConsoleTextAttribute(hConsole, 7);
 				std::cout << std::endl;
+			}
 		
 		}
 		if (player.cnt < 5)
@@ -51,6 +66,7 @@ public:
 			std::cout << std::endl;
 		}
 		system("pause");
+		system("cls");
 	}
 };
 
