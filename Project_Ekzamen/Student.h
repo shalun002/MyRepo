@@ -21,13 +21,6 @@ public:
 		Menu::Menu::menu(); // вызов функции меню
 	}
 
-	Student(std::string &name, std::string &corce, std::string &subject)
-	{
-		this->name = name;
-		this->cource = corce;
-		this->subject = subject;
-	}
-
-	Student() {}
-	~Student() {};
+	Student();
+	~Student();
 };

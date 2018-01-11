@@ -9,8 +9,8 @@ class Menu
 {
 public:
 
-	Menu() {}
-	~Menu() {}
+	Menu();
+	~Menu();
 
 	static void menu()
 	{
@@ -31,9 +31,18 @@ public:
 				std::cout << " Вы выбрали тест по предмету русский язык " << std::endl;
 				Russian::start();
 				break;
-			case 2: system("cls");  break;
-			case 3: system("cls");  break;
-			case 4: system("cls");  break;
+			case 2: system("cls");/*
+				std::cout << " Вы выбрали тест по предмету математика " << std::endl;
+				Russian::start();*/
+				break;
+			case 3: system("cls");/*
+				std::cout << " Вы выбрали тест по предмету история " << std::endl;
+				Russian::start();*/
+				break;
+			case 4: system("cls"); /*
+				std::cout << " До новых встреч " << std::endl;
+				Russian::start();*/ 
+				break;
 			case 5: default:
 				break;
 			}

@@ -10,7 +10,7 @@ public:
 	~Question();
 
 	std::string content;
-	std::string variants[5];
+	std::string variants[4];
 	std::string right;
 
 };

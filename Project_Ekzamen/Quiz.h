@@ -16,14 +16,14 @@ public:
 
 	void retrieveQuestions() {
 		std::ifstream fin("Russian.txt"); // create file and read it
-		if (!fin.is_open())  // check file
+		if (!fin.is_open())  // проверка файла
 		{
-			std::cout << "The file not found" << std::endl;
+			std::cout << " Файл не найден " << std::endl;
 		}
 		else if (fin.is_open()) {
-			std::string temp; // creat temp string
+			std::string temp; // создаем временную переменну temp типа string
 			while (!fin.eof()) {
-				getline(fin, temp); //read first string 
+				getline(fin, temp); // cчитать первую строку
 				Question q; // creat Question's object
 				q.content = temp; // write the read string to the created variable for the question
 
