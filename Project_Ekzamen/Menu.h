@@ -22,24 +22,23 @@ public:
 	{
 		while (true) 
 		{
-			std::cout << std::endl << std::endl;
-			std::cout << "\t----------------------------------" << std::endl;
 			std::cout << std::endl;
-			std::cout << "\t Select the item you want to pass. " << std::endl;
+			std::cout << " ----------------------------------" << std::endl;
 			std::cout << std::endl;
-			std::cout << "\t 1. Russian Language Test " << std::endl;
-			std::cout << "\t 2. Math test " << std::endl;
-			std::cout << "\t 3. Subject test history " << std::endl;
-			std::cout << "\t 4. Take the test at another time " << std::endl;
+			std::cout << " Select the item you want to pass. " << std::endl;
 			std::cout << std::endl;
-			std::cout << "\t----------------------------------" << std::endl;
+			std::cout << " 1. Russian Language Test " << std::endl;
+			std::cout << " 2. Math test " << std::endl;
+			std::cout << " 3. Subject test history " << std::endl;
+			std::cout << " 4. Take the test at another time " << std::endl;
+			std::cout << std::endl;
+			std::cout << " ----------------------------------" << std::endl;
 						
 			student.studentInfo();
 
 			while (true) 
 			{
-				int choiñe;
-				std::cout << " Your choice - "; std::cin >> choiñe;
+				int choiñe = student.subject;
 
 				if (choiñe > 4)
 				{
