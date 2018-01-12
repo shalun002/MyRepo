@@ -116,6 +116,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="Cabinet.cpp" />
     <ClCompile Include="Hello.cpp" />
     <ClCompile Include="History.cpp" />
     <ClCompile Include="Login.cpp" />
@@ -131,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="Cabinet.h" />
     <ClInclude Include="Hello.h" />
     <ClInclude Include="History.h" />
     <ClInclude Include="Login.h" />
