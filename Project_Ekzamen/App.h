@@ -26,12 +26,12 @@ public:
 				std::cout << quiz.questions[i].variants[j] << std::endl;
 			}
 			std::cout << std::endl;
-			std::cout << " Your answer:  "; std::cin >> player.choice;
+			std::cout << " Ваш ответ:  "; std::cin >> player.choice;
 			std::string s = quiz.questions[i].variants[player.choice - 1];
 			if (quiz.questions[i].variants[player.choice - 1] == quiz.questions[i].right) 
 			{
 				SetConsoleTextAttribute(hConsole, 2);
-				std::cout << " Your answer is correct\t " << std::endl;
+				std::cout << " Ваш ответ правильный\t " << std::endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				std::cout << std::endl;
 				
@@ -41,9 +41,9 @@ public:
 			{
 				std::cout << std::endl;
 				SetConsoleTextAttribute(hConsole, 12);
-				std::cout << " Your answer -\t" << quiz.questions[i].variants[player.choice - 1] << std::endl;
+				std::cout << " Ваш ответ: -\t" << quiz.questions[i].variants[player.choice - 1] << std::endl;
 				SetConsoleTextAttribute(hConsole, 2);
-				std::cout << " Correct answer -  " << quiz.questions[i].right << std::endl;
+				std::cout << " Правильный ответ -  " << quiz.questions[i].right << std::endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				std::cout << std::endl;
 			}
@@ -53,15 +53,15 @@ public:
 		{
 			std::cout << std::endl;
 			std::cout << std::endl;
-			std::cout << " \t\tYou typed - " << player.cnt << " points" << std::endl;
-			std::cout << " \tYou did not pass the test. It is sad(((( " << std::endl;
+			std::cout << " \t\tВы набрали - " << player.cnt << " балл(а/ов)" << std::endl;
+			std::cout << " \tВы не прошли тест. Это грустно(((( " << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;
 		}
 		else 
 		{
-			std::cout << "\t\tYou typed - " << player.cnt << " points" << std::endl;
-			std::cout << " \tYou passed the test. Congratulations!" << std::endl;
+			std::cout << "\t\tВы набрали - " << player.cnt << " балл(а/ов)" << std::endl;
+			std::cout << " \tВы прошли тест. Поздравляем!" << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;
 		}

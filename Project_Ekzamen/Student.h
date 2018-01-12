@@ -14,9 +14,9 @@ public:
 	void studentInfo()
 	{	
 		std::cout << std::endl;
-		std::cout << " Enter your name: "; std::cin >> name;           // ¬водим им€ студента
-		std::cout << " Enter a course: "; std::cin.ignore() >> cource; // ¬водим курс
-		std::cout << " Select item: ";  std::cin >> subject;
+		std::cout << " ¬ведите ваше им€: "; std::cin >> name;           // ¬водим им€ студента
+		std::cout << " ¬ведите ваш класс: "; std::cin.ignore() >> cource; // ¬водим курс
+		std::cout << " ¬ыберите предмет: ";  std::cin >> subject;
 		std::cout << std::endl;				
 	}
 
