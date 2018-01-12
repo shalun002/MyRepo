@@ -15,6 +15,10 @@ class Question;
 class Quiz;
 class Russian;
 class QuizMatem;
+class Hello;
+class Cabinet;
+class Registration;
+class Login;
 
 
 

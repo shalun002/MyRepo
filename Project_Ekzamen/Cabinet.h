@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
-#include <string>
-#include "Hello.h"
+//#include "Hello.h"
 
 
 
@@ -31,7 +30,7 @@ public:
 
 		while (true)
 		{
-			int choiñe;
+			int choiñe =0;
 
 			if (choiñe > 4)
 			{
@@ -62,7 +61,7 @@ public:
 				std::cout << " ------------- Äî íîâûõ âñòðå÷ ------------- " << std::endl;
 				std::cout << std::endl;
 				system("pause");
-				h.hello();
+				hel.hello();
 				std::cout << std::endl;
 				break;
 			default:
