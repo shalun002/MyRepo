@@ -16,10 +16,10 @@ public:
 	static void start()
 	{
 		system("cls");
-		std::cout << " \t\t\t\tTest started " << std::endl;
+		std::cout << " \t\t\t\tТест начался " << std::endl;
 		std::cout << std::endl;
-		std::cout << " \t\t\t  Number of questions - 10 " << std::endl;
-		std::cout << " \t\t\tFor each question - 5 answers " << std::endl;
+		std::cout << " \t\t\t  Колличество вопросов - 10 " << std::endl;
+		std::cout << " \t\t\tколличество вариантов ответов - 5 " << std::endl;
 		std::cout << std::endl;
 		std::cout << std::endl;
 

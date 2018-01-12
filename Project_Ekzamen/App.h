@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <cstdlib>
 #include <iostream>
 #include "Player.h"
@@ -31,7 +31,7 @@ public:
 			if (quiz.questions[i].variants[player.choice - 1] == quiz.questions[i].right) 
 			{
 				SetConsoleTextAttribute(hConsole, 2);
-				std::cout << " Your answer is correct\t" << std::endl;
+				std::cout << " Your answer is correct\t " << std::endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				std::cout << std::endl;
 				

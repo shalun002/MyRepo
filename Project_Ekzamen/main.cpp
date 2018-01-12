@@ -4,6 +4,7 @@
 #include <vector>
 #include <cstdlib>
 #include "Menu.h"
+#include "Hello.h"
 
 
 class Student;
@@ -20,8 +21,10 @@ class QuizMatem;
 
 int main()
 {
-	Menu menu;
-	menu.menu();
+	setlocale(LC_ALL, "RU");
+
+	Hello hl;
+	hl.hello();
 
 	system("pause");
 	return 0;
