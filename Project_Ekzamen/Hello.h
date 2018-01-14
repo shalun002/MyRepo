@@ -5,10 +5,11 @@
 
 
 
+
 class Hello
 {
 	Registration reg;
-	Login log;
+	Login l;
 
 public:
 	Hello();
@@ -39,19 +40,10 @@ public:
 			{
 				switch (action)
 				{
-				case 1: system("cls");
-					log.logIn();
-					break;
-				case 2: system("cls");
-					reg.registration();
-					break;
-				default:
-					break;
+					case 1: l.login(); break;
+					case 2: reg.registration(); break;
 				}
-				break;
 			}
 		}
-		
 	}
 };
-

@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+#include <string>
 
 class Player
 {
@@ -9,5 +11,9 @@ public:
 
 	int cnt = 0;
 	int choice;
+
+	std::string login;
+	std::string password;
+
 };
 

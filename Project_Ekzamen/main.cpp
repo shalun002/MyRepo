@@ -7,18 +7,20 @@
 #include "Hello.h"
 
 
-class Student;
 class App;
+class Cabinet;
+class Hello;
+class History;
+class Login;
+class Matem;
 class Menu;
 class Player;
 class Question;
 class Quiz;
-class Russian;
-class QuizMatem;
-class Hello;
-class Cabinet;
 class Registration;
-class Login;
+class Russian;
+class Student;
+
 
 
 
