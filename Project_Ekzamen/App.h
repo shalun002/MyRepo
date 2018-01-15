@@ -9,7 +9,6 @@
 
 class App
 {
-	Cabinet cab;
 	Quiz quiz;
 	Player player;
 
@@ -57,7 +56,7 @@ public:
 		{
 			std::cout << std::endl;
 			std::cout << std::endl;
-			std::cout << " \t\t  Вы набрали - " << player.cnt << " балл(а/ов)" << std::endl;
+			std::cout << " \t\t   Вы набрали - " << player.cnt << " балл(а/ов)" << std::endl;
 			std::cout << "\t\tВы не прошли тест. Это грустно(((( " << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;

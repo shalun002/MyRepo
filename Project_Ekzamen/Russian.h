@@ -18,6 +18,7 @@ public:
 	static void start()
 	{
 		system("cls");
+
 		std::cout << std::endl;
 		std::cout << " Данные сдающего: " << std::endl;
 		std::cout << std::endl;
@@ -35,4 +36,6 @@ public:
 		App app;
 		app.start("Russian.txt");
 	}
+
+
 };
