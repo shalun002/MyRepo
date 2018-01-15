@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Cabinet.cpp" />
+    <ClCompile Include="CabinetMenu.cpp" />
     <ClCompile Include="Hello.cpp" />
     <ClCompile Include="History.cpp" />
     <ClCompile Include="Login.cpp" />
@@ -133,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="Cabinet.h" />
+    <ClInclude Include="CabinetMenu.h" />
     <ClInclude Include="Hello.h" />
     <ClInclude Include="History.h" />
     <ClInclude Include="Login.h" />

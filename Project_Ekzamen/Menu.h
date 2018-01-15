@@ -5,11 +5,13 @@
 #include "Russian.h"
 #include "Matem.h"
 #include "History.h"
-
+#include "CabinetMenu.h"
 
 class Menu
 {
+	CabinetMenu cab;
 	Player player;
+
 
 public:
 
@@ -28,13 +30,14 @@ public:
 			std::cout << " 1. Тест по русскому языку " << std::endl;
 			std::cout << " 2. Тест по математике " << std::endl;
 			std::cout << " 3. Тест по истории " << std::endl;
+			std::cout << " 4. Главное меню " << std::endl;
 			std::cout << std::endl;
 			std::cout << " ----------------------------------" << std::endl;
 						
 			int a = 0;
 
 			std::cout << std::endl;
-			std::cout << "Выберите интересующий Вас предмет: "; std::cin >> a;
+			std::cout << "Ваш выбор: "; std::cin >> a;
 			std::cout << std::endl;
 
 			while (true) 
@@ -63,6 +66,7 @@ public:
 					std::cout << " Вы выбрали тест по истории " << std::endl;
 					History::start();
 					break;
+				case 4: system("cls"); cab.	break;
 				}
 				break;
 			}
