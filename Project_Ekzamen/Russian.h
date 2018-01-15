@@ -3,7 +3,7 @@
 #include <fstream>
 #include "Quiz.h"
 #include "App.h"
-#include "Student.h"
+#include "Player.h"
 
 
 
@@ -22,8 +22,8 @@ public:
 		std::cout << std::endl;
 		std::cout << " Данные сдающего: " << std::endl;
 		std::cout << std::endl;
-		Student st;
-		st.studentInfo();
+		Player pl;
+		pl.studentInfo();
 		
 		std::cout << std::endl;
 		std::cout << " \t\t\t\tТест начался " << std::endl;
@@ -36,6 +36,4 @@ public:
 		App app;
 		app.start("Russian.txt");
 	}
-
-
 };

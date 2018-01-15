@@ -6,6 +6,7 @@
 class Cabinet
 {
 	Menu menu;
+
 public:
 	Cabinet();
 	~Cabinet();

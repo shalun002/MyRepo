@@ -5,10 +5,12 @@
 #include "Quiz.h"
 #include <conio.h>
 #include<Windows.h>
+//#include "Cabinet.h"
 
 
 class App
 {
+	//Cabinet cab;
 	Quiz quiz;
 	Player player;
 
@@ -61,7 +63,6 @@ public:
 			std::cout << std::endl;
 			std::cout << std::endl;
 			system("pause");
-			
 		}
 		else 
 		{
@@ -70,6 +71,22 @@ public:
 			std::cout << std::endl;
 			std::cout << std::endl;
 		}
+
+		int count = 0;
+		std::cout << std::endl;
+		std::cout << std::endl;
+		std::cout << "\t\t  Желаете продолжить? 1 - ДА, 2 - НЕТ "; std::cin >> count;
+		
+		if (count == 1)
+		{
+			system("cls");
+			return;			
+		}
+		/*else if (count == 2)
+		{		
+			ab.Link();
+		}*/
+
 		system("pause");
 		system("cls");
 	}

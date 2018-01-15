@@ -5,13 +5,11 @@
 #include "Russian.h"
 #include "Matem.h"
 #include "History.h"
-#include "Student.h"
 
 
 class Menu
 {
-
-	Student student;
+	Player player;
 
 public:
 
