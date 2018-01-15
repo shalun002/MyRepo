@@ -13,8 +13,13 @@ public:
 	int choice;
 	int ctr = 0;
 
-	std::string login;
-	std::string password;
+	std::string login, loginCheck;
+	std::string passwordCheck;
+	std::string name;
+	std::string surName;
+	std::string pass;
+	std::string pass2;
+	std::string corPass;
 
 };
 

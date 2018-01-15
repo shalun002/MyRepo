@@ -8,9 +8,9 @@
 #include "Student.h"
 
 
-
 class Menu
 {
+
 	Student student;
 
 public:
@@ -30,24 +30,25 @@ public:
 			std::cout << " 1. Тест по русскому языку " << std::endl;
 			std::cout << " 2. Тест по математике " << std::endl;
 			std::cout << " 3. Тест по истории " << std::endl;
-			std::cout << " 4. Пройти в следующий раз " << std::endl;
 			std::cout << std::endl;
 			std::cout << " ----------------------------------" << std::endl;
 						
-			student.studentInfo();
+			int a = 0;
+
+			std::cout << std::endl;
+			std::cout << "Выберите интересующий Вас предмет: "; std::cin >> a;
+			std::cout << std::endl;
 
 			while (true) 
 			{
-				int choiсe = student.subject;
-
-				if (choiсe > 4)
+				if (a > 4)
 				{
 					std::cout << " Такого теста нет в нашей базе, выберите другой. " << std::endl;
 					system("pause");
 					system("cls");
 				}
 
-				switch (choiсe)
+				switch (a)
 				{
 				case 1: system("cls");
 					std::cout << std::endl << std::endl;
@@ -63,15 +64,6 @@ public:
 					std::cout << std::endl << std::endl;
 					std::cout << " Вы выбрали тест по истории " << std::endl;
 					History::start();
-					break;
-				case 4: system("cls");
-					std::cout << std::endl << std::endl;
-					std::cout << " ------------- До новых встреч ------------- " << std::endl;
-					std::cout << std::endl;
-					system("pause");
-					std::cout << std::endl;
-					break;
-				default:
 					break;
 				}
 				break;

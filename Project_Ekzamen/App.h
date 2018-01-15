@@ -9,6 +9,7 @@
 
 class App
 {
+	Cabinet cab;
 	Quiz quiz;
 	Player player;
 
@@ -18,11 +19,14 @@ public:
 	App();
 	~App();
 
-	void start(std::string filename) {
+	void start(std::string filename) 
+	{
 		quiz.retrieveQuestions(filename);
-		for (int i = 0; i < quiz.questions.size(); ++i) {
+		for (int i = 0; i < quiz.questions.size(); ++i) 
+		{
 			std::cout << quiz.questions[i].content << std::endl;
-			for (int j = 0; j < 5; ++j) {
+			for (int j = 0; j < 5; ++j) 
+			{
 				std::cout << quiz.questions[i].variants[j] << std::endl;
 			}
 			std::cout << std::endl;
@@ -57,11 +61,13 @@ public:
 			std::cout << "\t\tВы не прошли тест. Это грустно(((( " << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;
+			system("pause");
+			
 		}
 		else 
 		{
 			std::cout << "\t\t     Вы набрали - " << player.cnt << " балл(а/ов)" << std::endl;
-			std::cout << "\t\tВы прошли тест. Поздравляем!" << std::endl;
+			std::cout << "\t\t   Вы прошли тест. Поздравляем!" << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;
 		}

@@ -19,10 +19,11 @@ public:
 
 	void hello()
 	{
-		while (true)
+		bool bl = true;
+		while (bl)
 		{
 			std::cout << std::endl;
-			std::cout << "Вход- 1" << "   " << "Регистрация- 2" << std::endl;
+			std::cout << "Вход- 1" << "   " << "Регистрация- 2" << "   " << "Выход - 3" << std::endl;
 
 			std::cout << "\n\n\n\n\n\n\n\t\t\t\t\t\t  Здравствуй, уважаемый пользователь! Рады приветствовать Вас на иформационном портале. " << std::endl;
 			std::cout << "\n\n\t\t\t\t\t   Предлагаем всем желающим пройти пробный тест по интересующим вас предметам и сразу получить результат." << std::endl;
@@ -38,8 +39,9 @@ public:
 
 			switch (action)
 			{
-				case 1: l.login(); break;
+				case 1: l.login("UserInfo.txt"); break;
 				case 2: reg.registration(); break;
+				case 3: bl = false; break;
 			}
 		}
 	}

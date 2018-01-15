@@ -2,25 +2,21 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include "Player.h"
 
 
 
 
 class Registration
 {
-public:
+	Player pl;
 
-	std::string name;
-	std::string surName;
-	std::string login;
-	std::string pass;
-	std::string pass2;
-	std::string corPass;
+public:
 
 	Registration();
 	~Registration();
 
-	void AddInfoToFile(std::string n, std::string p, int c)
+	void AddInfoToFile(std::string a, std::string b, std::string c, std::string d)
 	{
 		std::ofstream fout;
 		fout.open("UserInfo.txt", std::ofstream::app); 
@@ -29,13 +25,10 @@ public:
 			std::cout << "Файл не найден" << std::endl;
 		}
 		else
-		{
-			fout << n << std::endl;
-			fout << p << std::endl;
-			fout << c << std::endl;
-			fout << std::endl;
+		{	
+			fout <<"Имя "<< a << "  " <<"Фамилия " << b << " " << c << ":" << d << std::endl;
+			fout << c << ":" << d << std::endl;
 		}
-
 		fout.close();
 	}
 
@@ -43,17 +36,21 @@ public:
 	void registration()
 	{
 		
+		
 		system("cls");
 		std::cout << "\n\n";
 		std::cout << "\t\t\t\t\t\t\t\t\t Добро пожаловать на форму регистрации!" << "\n\n\n\n";
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите имя: "; std::cin >> name;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите фамилию: "; std::cin >> surName;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте логин: "; std::cin >> login;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте пароль: "; std::cin >> pass2;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Повторите пароль: ";  std::cin >> corPass;
-		if (pass2 == corPass)
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите имя: "; std::cin >> pl.name;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите фамилию: "; std::cin >> pl.surName;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте логин: "; std::cin >> pl.login;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте пароль: "; std::cin >> pl.pass2;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Повторите пароль: ";  std::cin >> pl.corPass;
+
+		
+
+		if (pl.pass2 == pl.corPass)
 		{
-			pass = corPass;
+			pl.pass = pl.corPass;
 			std::cout << "\n\n";
 			std::cout << "\t\t\t\t\t\t\t\t\t\t      Пароли совпадают" << std::endl;
 			std::cout << "\n\n";
@@ -61,12 +58,16 @@ public:
 			system("pause");
 			system("cls");
 			std::cout << "\n\n";
-			AddInfoToFile(login, pass, 0);
+			AddInfoToFile(pl.name, pl.surName, pl.login, pl.pass);
 		}
 		else
 		{
 			std::cout << "\n\n";
-			std::cout << "\t\t\t\t\t\t\t\t\t\t     Пароли не совпадают"; 
+			std::cout << "\t\t\t\t\t\t\t\t\tПароли не совпадают Попробуйте еще раз."; 
+			std::cout << "\n\n";
+			std::cout << "\n\n";
+			system("pause");
+			system("cls");
 			return;
 		}		
 	}

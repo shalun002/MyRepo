@@ -1,12 +1,3 @@
-shalun
-123456
-0
 
-asd
-asd
-0
-
-alex
-654321
-0
-
+Имя Sergey  Фамилия Blinov shalun:123
+shalun:123

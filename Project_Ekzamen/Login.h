@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <fstream>
 #include "Cabinet.h"
 #include "Player.h"
 #include "Registration.h"
@@ -18,50 +19,54 @@ public:
 	Login();
 	~Login();
 
-	void login()
+
+	
+	std::vector <Registration> registration;
+	void login(std::string filename)
 	{
-		system("cls");
-		std::vector <Player> user;
+		system("cls");		
 		std::cout << "\n\n\n\n\n\t\t\t\t\t\t Для входа в личный кабинет введите логин и пароль" << "\n\n\n\n";
-		std::cout << "\n\t\t\t\t\t\t\t\t Введите логин:  "; std::cin >> pl.login; 
-		std::cout << "\t\t\t\t\t\t\t\t Введите пароль: "; std::cin >> pl.password; std::cout << std::endl;
-		std::ifstream fin("UserInfo.txt");
-		if (!fin.is_open())
+		std::cout << "\n\t\t\t\t\t\t\t\t Введите логин:  "; std::cin >> pl.login;
+		std::cout << "\t\t\t\t\t\t\t\t Введите пароль: "; std::cin >> pl.pass; std::cout << std::endl;
+		std::ifstream fin(filename);   //создаем объект потока istream  по имени fin
+																		//который инициализируется  именем fileName,
+																		//вызывается функция file.open();
+		if (!fin.is_open())			// Проверка файла на присутствие
 		{
 			std::cout << "Файл не найден" << std::endl;
 		}
-		else
-		{
-			std::string temp; 
-			while (!fin.eof())
+		else if (fin.is_open())
+		{	
+			std::string temp;
+			bool b = true;
+			while (getline(fin, temp))
 			{
-				getline(fin, temp);
-				pl.login = temp;
-				getline(fin, temp);
-				pl.password = temp;
-				user.push_back(pl);
-				if (pl.ctr <= 3)
+				if (temp == pl.login+":"+pl.pass)
 				{
-					if (pl.login == reg.login && pl.password == reg.pass)
-					{
-						std::system("cls");
-						std::cout << "\n\n\n\n\n\t\t\t\t\t\tДобро пожаловать Уважаемый " << pl.login << std::endl;
-						system("pause");
-						system("cls");
-						cab.Link();
-					}
-					else
-					{
-						std::cout << "\n\n\n\n\n\t\t\t\t\t\tПользователь не найден. Пройдите простейшую регистрацию";
-						std::cout << std::endl;
-					}
-				}
-				else
-				{
-					Registration();
+					std::system("cls");
+					std::cout << "\n\n\n\n\n\t\t\t\t\t\t\t\t\tДобро пожаловать Уважаемый " << pl.login << std::endl;
+					std::cout << std::endl;
+					std::cout << std::endl;
+					std::cout << std::endl;
+					system("pause 300");
+					system("cls");
+					
+					b = false;
+					break;
 				}
 			}
-		}		
+			fin.close();
+			if (b)
+			{
+				std::cout << "\n\n\n\n\n\t\t\t\t\tПользователь не найден. Проверьте логин или пароль, или зарегистрируйтесь.";
+				std::cout << std::endl;
+				system("pause");
+				system("cls");
+			}
+			else 
+			{
+				cab.Link(); 
+			}
+		}
 	}
 };
-
