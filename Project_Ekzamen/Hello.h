@@ -36,13 +36,10 @@ public:
 			std::cout << std::endl;
 			std::cout << "Выберите действие: "; std::cin >> action;
 
-			while (true)
+			switch (action)
 			{
-				switch (action)
-				{
-					case 1: l.login(); break;
-					case 2: reg.registration(); break;
-				}
+				case 1: l.login(); break;
+				case 2: reg.registration(); break;
 			}
 		}
 	}

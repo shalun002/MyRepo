@@ -11,6 +11,7 @@ public:
 
 	int cnt = 0;
 	int choice;
+	int ctr = 0;
 
 	std::string login;
 	std::string password;
