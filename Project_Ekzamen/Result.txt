@@ -1,6 +1,3 @@
-Name -   Class -   Scor for test - 2
-Name -   Class -   Scor for test - 2
-Name -   Class -   Scor for test - 0
-Имя -   Класс -  Ваш балл - 2
-Name -   Class -  Scor for test - 0
-Name -   Class -  Scor for test - 2
+
+Имя -   Класс -  Балл - 1
+Имя -   Класс -  Балл - 2

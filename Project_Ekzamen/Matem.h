@@ -19,7 +19,9 @@ public:
 		std::cout << " Данные сдающего: " << std::endl;
 		std::cout << std::endl;
 		Player pl;
-		pl.studentInfo(" ", " ");
+		std::cout << " Ваше имя: "; std::cin >> pl.name;
+		std::cout << " Введите ваш класс: "; std::cin.ignore() >> pl.cource;
+		std::cout << std::endl;
 
 		std::cout << " \t\t\t\tТест начался " << std::endl;
 		std::cout << std::endl;
