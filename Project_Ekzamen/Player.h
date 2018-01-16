@@ -2,6 +2,24 @@
 #include <iostream>
 #include <string>
 
+
+class SimpleClass {
+public:
+	int get() const;
+	void set(int val);
+	static SimpleClass& instance();
+private:
+	SimpleClass(int val);
+	SimpleClass();
+	int m_val;
+};
+//simpleclass.cpp
+SimpleClass& SimpleClass::instance() {
+	static SimpleClass instance;
+	return instance;
+}
+
+
 class Player
 {
 public:
