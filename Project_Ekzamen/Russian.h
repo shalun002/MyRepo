@@ -9,7 +9,8 @@
 
 class Russian
 {
-	
+	Player pl;
+
 public:
 
 	Russian();

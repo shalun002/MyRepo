@@ -1,70 +1,70 @@
-A. Не является словосочетанием. 
-	1. Белый медведь.
-	2. Жизнь медведя.
-	3. Устраивать берлоги.
-	4. Плавать и нырять.
-	5. Широкие лапы.
-	4. Плавать и нырять. 
-B. Словосочетание, образованное по способу согласования. 
-	1. Убегали вдаль.
-	2. Убегали бесшумно.
-	3. Белая ночь.
-	4. Долетел до нас.
-	5. играть с товарищем.
-	3. Белая ночь.
-C. Найдите словосочетание, связанное по способу согласования. 
-	1. Читаю газету.
-	2. Учит стихотворение.
-	3. Играет хорошо.
-	4. Живет далеко.
-	5. Юные спортсмены.
-	5. Юные спортсмены. 
-D. Найдите словосочетание, где неправильно определено главное слово. 
-	1. Занимает территорию.
-	2. Обширные пустыни.
-	3. Поют громко.
-	4. Поездка в горы.
-	5. Подготовить доклад.
-	5. Подготовить доклад.
-E. Найдите словосочетание, связанное по способу управления. 
-	1. Медведь морской.
-	2. Называют медведя.
-	3. Хорошо видит.
-	4. Глубоко ныряет.
-	5. Белый медведь.
-	2. Называют медведя.
-F. Укажите способы связи слов в данных словосочетаниях Связанo с морем, ходит по снегу. 
-	1. Согласование, управление. 
-	2. Управление, управление. 
-	3. Управление, примыкание. 
-	4. Примыкание, согласование. 
-	5. Управление, согласование. 
-	2. Управление, управление.
-G. Найдите словосочетание, связанное по способу управления. 
-	1. Голубое небо. 
-	2. Красная книга. 
-	3. Говорить громко. 
-	4. Гулять в парке. 
-	5. Раннее утро. 
-	2. Гулять в парке.
-H. Укажите словосочетание, которое указывает на действия и предмет, на который он переходит. 
-	1. Написать сочинение.
-	2. Говорить громко. 
-	3. Холодный ветер. 
-	4. Золотая медаль. 
-	5. Рыбачья лодка. 
-	1. Написать сочинение.
-I. Пишется буква о: 
-	1. Сч…тчик. 
-	2. Поч…тный. 
-	3. Ш…пот. 
-	4. Щ…голь 
-	5. Ч…каться.
-	1. Ч…каться.
-J. Синонимы 
-	1. облако, облачный 
-	2. север, юг 
-	3. восхитительный, замечательный
-	4. могучий, слабый 
-	5. мороз, морозный 
-	1. восхитительный, замечательный
+A. It is not a phrase.
+	1. The polar bear.
+	2. The life of a bear.
+	3. Arrange the lairs.
+	4. Swim and dive.
+	5. Wide paws.
+	4. Swim and dive.
+B. Phrase formed by the method of agreement.
+	1. They ran away into the distance.
+	2. They ran away noiselessly.
+	3. White night.
+	4. He flew to us.
+	5. Play with a friend.
+	3. White night.
+C. Find the phrase associated with the matching method.
+	1. I read the newspaper.
+	2. Teaches a poem.
+	3. Playing well.
+	4. He lives far away.
+	5. Young athletes.
+	5. Young athletes.
+D. Find the phrase where the main word is incorrectly defined.
+	1. Occupies the territory.
+	2. Extensive deserts.
+	3. They sing loudly.
+	4. A trip to the mountains.
+	5. Prepare the report.
+	5. Prepare the report.
+E. Find the word combination related to the method of management.
+	1. Bear sea.
+	2. Call the bear.
+	3. Good sees.
+	4. Deeply dives.
+	5. The polar bear.
+	2. Call the bear.
+F. Specify ways to link words in these phrases. Linked to the sea, walks through the snow.
+	1. Reconciliation, management.
+	2. Management, management.
+	3. Management, abutting.
+	4. Adherence, coordination.
+	5. Management, coordination.
+	2. Management, management.
+G. Find the phrase related to the control method.
+	1. The blue sky.
+	2. The Red Book.
+	3. Speak loudly.
+	4. Walking in the park.
+	5. Early morning.
+	2. Walking in the park.
+H. Specify a phrase that indicates the actions and the subject to which it moves.
+	1. Write an essay.
+	2. Speak loudly.
+	3. Cold wind.
+	4. Gold medal.
+	5. Fishing boat.
+	1. Write an essay.
+I. A letter is written about:
+	1. Sc ... tchik.
+	2. Mailing ....
+	3. W ... sweat.
+	4. Щ ... голь
+	5. To ... repent.
+	1. To ... repent.
+J. Synonyms
+	1. cloud, cloudy
+	2. north, south
+	3. delightful, wonderful
+	4. mighty, weak
+	5. frost, frosty
+	1. delightful, wonderful

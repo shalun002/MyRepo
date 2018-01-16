@@ -13,20 +13,20 @@ public:
 	int choice;
 	int ctr = 0;
 
-	std::string login;  // логин login при регистрации
+	std::string login; // логин login при регистрации
 	std::string name;	// им€ при регистрации 
 	std::string surName;  // фамили€ при регистрации
 	std::string pass;   // присваиваем corPass в pass, который и будет использоватьс€ как единый пароль
 	std::string pass2;  // первый пароль при регистрации 
 	std::string corPass; // подтверждение первого парол€
 	std::string name2;    // им€ студента
-	int cource;  // класс учащегос€
+	std::string cource;  // класс учащегос€
 
 	void studentInfo()
 	{
 		std::cout << std::endl;
-		std::cout << " ¬ведите ваше им€: "; std::cin >> name2;           // ¬водим им€ студента
-		std::cout << " ¬ведите ваш класс: "; std::cin >> cource; // ¬водим курс
+		std::cout << " ¬аше им€: "; std::cin >> name;           // ¬водим им€ студента
+		std::cout << " ¬ведите ваш класс: "; std::cin.ignore() >> cource; // ¬водим курс
 		std::cout << std::endl;
 	}
 

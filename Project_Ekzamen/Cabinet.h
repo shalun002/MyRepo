@@ -1,11 +1,13 @@
 #pragma once
 #include <iostream>
 #include "LincMenu.h"
+#include "SaveResultToFile.h"
 
 
 
 class Cabinet
 {
+	SaveResultToFile st;
 	LincMenu cl2;
 
 public:
@@ -45,7 +47,7 @@ public:
 			switch (choiñe)
 			{
 			case 1: system("cls"); break;
-			case 2: system("cls"); break;
+			case 2: system("cls"); st.showResults(); break;
 			case 3: system("cls"); cl2.lincMenu();	break;
 			case 4: system("cls");
 				std::cout << std::endl << std::endl;

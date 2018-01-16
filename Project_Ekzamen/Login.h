@@ -34,6 +34,8 @@ public:
 		if (!fin.is_open())			// Проверка файла на присутствие
 		{
 			std::cout << "Файл не найден" << std::endl;
+			system("pause");
+			system("cls");
 		}
 		else if (fin.is_open())
 		{	
@@ -48,7 +50,7 @@ public:
 					std::cout << std::endl;
 					std::cout << std::endl;
 					std::cout << std::endl;
-					system("pause 300");
+					system("pause");
 					system("cls");
 					
 					b = false;

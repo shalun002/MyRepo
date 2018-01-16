@@ -79,7 +79,7 @@ public:
 		if (count == 1)
 		{
 			system("cls");
-			save.saveResult();
+			save.saveResult(player.name, player.cource, player.cnt);
 		}
 		else if (count == 2)
 		{		
