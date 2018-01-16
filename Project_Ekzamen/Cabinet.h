@@ -1,11 +1,12 @@
 #pragma once
 #include <iostream>
+#include "Menu.h"
 
 
 
 class Cabinet
 {
-	//Menu menu;
+	Menu menu;
 
 public:
 	Cabinet();
@@ -44,8 +45,8 @@ public:
 			{
 			case 1: system("cls"); break;
 			case 2: system("cls"); break;
-			//case 3: system("cls"); menu.menu(); return;
-				//break;
+			case 3: system("cls"); menu.menu(); return;
+				break;
 			case 4: system("cls");
 				std::cout << std::endl << std::endl;
 				std::cout << "\t\t\t\t\t\t\t\t\t  ------------- До новых встреч ------------- " << std::endl;

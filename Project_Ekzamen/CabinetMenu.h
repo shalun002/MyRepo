@@ -1,12 +1,12 @@
 #pragma once
-#include "Cabinet.h"
-#include "Menu.h"
+//#include "Cabinet.h"
+//#include "Menu.h"
 
 
 class CabinetMenu
 {
-	Cabinet cabinet;
-	Menu menu;
+	//Cabinet cabinet;
+	//Menu menu;
 
 public:
 	CabinetMenu();
@@ -14,12 +14,12 @@ public:
 
 	void linkerCabinet()
 	{
-		cabinet.Link();
+		//cabinet.Link();
 	}
 
 	void linkerMenu()
 	{
-		menu.menu();
+		//menu.menu();
 	}
 };
 

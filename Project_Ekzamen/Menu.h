@@ -66,7 +66,7 @@ public:
 					std::cout << " Вы выбрали тест по истории " << std::endl;
 					History::start();
 					break;
-				case 4: system("cls"); cab.	break;
+				case 4: system("cls"); cab.linkerCabinet(); break;
 				}
 				break;
 			}

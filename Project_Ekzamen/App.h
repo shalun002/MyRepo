@@ -5,12 +5,12 @@
 #include "Quiz.h"
 #include <conio.h>
 #include<Windows.h>
-//#include "Cabinet.h"
+#include "CabinetMenu.h"
 
 
 class App
 {
-	//Cabinet cab;
+	CabinetMenu cab;
 	Quiz quiz;
 	Player player;
 
@@ -82,10 +82,10 @@ public:
 			system("cls");
 			return;			
 		}
-		/*else if (count == 2)
+		else if (count == 2)
 		{		
-			ab.Link();
-		}*/
+			cab.linkerCabinet();
+		}
 
 		system("pause");
 		system("cls");
