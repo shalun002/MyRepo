@@ -22,13 +22,13 @@ public:
 	std::string name2;    // им€ студента
 	std::string cource;  // класс учащегос€
 
-	void studentInfo()
+	std::string studentInfo(std::string name, std::string cource)
 	{
 		std::cout << std::endl;
 		std::cout << " ¬аше им€: "; std::cin >> name;           // ¬водим им€ студента
 		std::cout << " ¬ведите ваш класс: "; std::cin.ignore() >> cource; // ¬водим курс
 		std::cout << std::endl;
+		return name, cource;
 	}
-
 };
 

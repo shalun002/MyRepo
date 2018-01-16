@@ -19,7 +19,7 @@ public:
 		std::cout << " Данные сдающего: " << std::endl;
 		std::cout << std::endl;
 		Player pl;
-		pl.studentInfo();
+		pl.studentInfo("asd ", "11");
 
 
 		std::cout << " \t\t\t\tТест начался " << std::endl;

@@ -23,7 +23,7 @@ public:
 		}
 		else
 		{
-			fout << "Name - " << e << "  " << "Class - " << f << " " << " Scor for test - " << g << std::endl;
+			fout << "Name - " << e << "  " << "Class - " << f << " " << "Scor for test - " << g << std::endl;
 		}
 		fout.close();
 

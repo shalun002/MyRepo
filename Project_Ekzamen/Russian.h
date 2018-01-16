@@ -16,7 +16,7 @@ public:
 	Russian();
 	~Russian();
 
-	static void start()
+	void start()
 	{
 		system("cls");
 
@@ -24,7 +24,7 @@ public:
 		std::cout << " Данные сдающего: " << std::endl;
 		std::cout << std::endl;
 		Player pl;
-		pl.studentInfo();
+		pl.studentInfo("", "");
 		
 		std::cout << std::endl;
 		std::cout << " \t\t\t\tТест начался " << std::endl;

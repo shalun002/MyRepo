@@ -9,7 +9,7 @@
 
 class Menu
 {
-	//LincCabinet cab;
+	Russian rus;
 	Player player;
 
 public:
@@ -55,7 +55,7 @@ public:
 			case 1: system("cls");
 				std::cout << std::endl << std::endl;
 				std::cout << " Вы выбрали тест по русскому языку " << std::endl;
-				Russian::start();
+				rus.start();
 				break;
 			case 2: system("cls");
 				std::cout << std::endl << std::endl;
