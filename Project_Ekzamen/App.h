@@ -4,13 +4,14 @@
 #include "Player.h"
 #include "Quiz.h"
 #include <conio.h>
-#include<Windows.h>
-#include "CabinetMenu.h"
+#include <Windows.h>
+#include "SaveResultToFile.h"
+
 
 
 class App
 {
-	CabinetMenu cab;
+	SaveResultToFile save;
 	Quiz quiz;
 	Player player;
 
@@ -75,20 +76,21 @@ public:
 		int count = 0;
 		std::cout << std::endl;
 		std::cout << std::endl;
-		std::cout << "\t\t  Желаете продолжить? 1 - ДА, 2 - НЕТ "; std::cin >> count;
+		std::cout << "\t\t  Желаете сохранить результат? 1 - ДА, 2 - НЕТ  " << std::endl;
+		std::cout << "\t\t  Ваш выбор: "; std::cin >> count;
 		
 		if (count == 1)
 		{
 			system("cls");
-			return;			
+			save.saveResult();
 		}
 		else if (count == 2)
 		{		
-			cab.linkerCabinet();
+			system("cls");
+			return;
 		}
 
 		system("pause");
 		system("cls");
 	}
 };
-

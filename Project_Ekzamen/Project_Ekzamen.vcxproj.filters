@@ -57,7 +57,10 @@
     <ClCompile Include="Cabinet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CabinetMenu.cpp">
+    <ClCompile Include="LincMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveResultToFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -101,7 +104,10 @@
     <ClInclude Include="Cabinet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CabinetMenu.h">
+    <ClInclude Include="LincMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveResultToFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

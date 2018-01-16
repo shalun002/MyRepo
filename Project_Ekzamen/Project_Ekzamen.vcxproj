@@ -117,7 +117,7 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Cabinet.cpp" />
-    <ClCompile Include="CabinetMenu.cpp" />
+    <ClCompile Include="LincMenu.cpp" />
     <ClCompile Include="Hello.cpp" />
     <ClCompile Include="History.cpp" />
     <ClCompile Include="Login.cpp" />
@@ -129,12 +129,13 @@
     <ClCompile Include="Quiz.cpp" />
     <ClCompile Include="Registration.cpp" />
     <ClCompile Include="Russian.cpp" />
+    <ClCompile Include="SaveResultToFile.cpp" />
     <ClCompile Include="Student.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="Cabinet.h" />
-    <ClInclude Include="CabinetMenu.h" />
+    <ClInclude Include="LincMenu.h" />
     <ClInclude Include="Hello.h" />
     <ClInclude Include="History.h" />
     <ClInclude Include="Login.h" />
@@ -145,6 +146,7 @@
     <ClInclude Include="Quiz.h" />
     <ClInclude Include="Registration.h" />
     <ClInclude Include="Russian.h" />
+    <ClInclude Include="SaveResultToFile.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

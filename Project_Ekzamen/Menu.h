@@ -5,22 +5,24 @@
 #include "Russian.h"
 #include "Matem.h"
 #include "History.h"
-#include "CabinetMenu.h"
+//#include "LincCabinet.h"
 
 class Menu
 {
-	CabinetMenu cab;
+	//LincCabinet cab;
 	Player player;
-
 
 public:
 
 	Menu();
 	~Menu();
 
+	bool bo = true;
+
 	 void menu()
 	{
-		while (true) 
+		
+		while (bo)
 		{
 			std::cout << std::endl;
 			std::cout << " ----------------------------------" << std::endl;
@@ -33,44 +35,43 @@ public:
 			std::cout << " 4. Главное меню " << std::endl;
 			std::cout << std::endl;
 			std::cout << " ----------------------------------" << std::endl;
-						
+					
 			int a = 0;
 
 			std::cout << std::endl;
 			std::cout << "Ваш выбор: "; std::cin >> a;
 			std::cout << std::endl;
 
-			while (true) 
+		
+			if (a > 4)
 			{
-				if (a > 4)
-				{
-					std::cout << " Такого теста нет в нашей базе, выберите другой. " << std::endl;
-					system("pause");
-					system("cls");
-				}
-
-				switch (a)
-				{
-				case 1: system("cls");
-					std::cout << std::endl << std::endl;
-					std::cout << " Вы выбрали тест по русскому языку " << std::endl;
-					Russian::start();
-					break;
-				case 2: system("cls");
-					std::cout << std::endl << std::endl;
-					std::cout << " Вы выбрали тест по математике " << std::endl;
-					Matem::start();
-					break;
-				case 3: system("cls");
-					std::cout << std::endl << std::endl;
-					std::cout << " Вы выбрали тест по истории " << std::endl;
-					History::start();
-					break;
-				case 4: system("cls"); cab.linkerCabinet(); break;
-				}
-				break;
+				std::cout << " Такого теста нет в нашей базе, выберите другой. " << std::endl;
+				system("pause");
+				system("cls");
 			}
-		}
+
+			switch (a)
+			{
+			case 1: system("cls");
+				std::cout << std::endl << std::endl;
+				std::cout << " Вы выбрали тест по русскому языку " << std::endl;
+				Russian::start();
+				break;
+			case 2: system("cls");
+				std::cout << std::endl << std::endl;
+				std::cout << " Вы выбрали тест по математике " << std::endl;
+				Matem::start();
+				break;
+			case 3: system("cls");
+				std::cout << std::endl << std::endl;
+				std::cout << " Вы выбрали тест по истории " << std::endl;
+				History::start();
+				break;
+			case 4: system("cls"); bo = false; break;
+			default:
+				break;
+
+			}
+		}	
 	}
 };
-
