@@ -24,10 +24,9 @@ public:
 			std::cout << std::endl;
 			std::cout << "Приветствуем тебя, Уважаемый пользователь! " << std::endl;
 			std::cout << std::endl;
-			std::cout << "  1. Лучшие на этой неделе " << std::endl;
-			std::cout << "  2. Мои результаты " << std::endl;
-			std::cout << "  3. Пройти тестирование " << std::endl;
-			std::cout << "  4. Выход " << std::endl;
+			std::cout << "  1. Мои результаты " << std::endl;
+			std::cout << "  2. Пройти тестирование " << std::endl;
+			std::cout << "  3. Выход " << std::endl;
 			std::cout << std::endl;
 			std::cout << "------------------------------------------" << std::endl;
 			std::cout << std::endl;
@@ -37,7 +36,7 @@ public:
 
 			std::cout << "Выберите действие: "; std::cin >> choiсe;
 		
-			if (choiсe > 4)
+			if (choiсe > 3)
 			{
 				std::cout << "\t\t\t\t\t\t\t\t\t  Ошибка выбора, повторите еще раз. " << std::endl;
 				system("pause");
@@ -46,10 +45,9 @@ public:
 
 			switch (choiсe)
 			{
-			case 1: system("cls"); break;
-			case 2: system("cls"); st.showResults(); break;
-			case 3: system("cls"); cl2.lincMenu();	break;
-			case 4: system("cls");
+			case 1: system("cls"); st.showResults("Result.txt"); break;
+			case 2: system("cls"); cl2.lincMenu();	break;
+			case 3: system("cls");
 				std::cout << std::endl << std::endl;
 				std::cout << "\t\t\t\t\t\t\t\t\t  ------------- До новых встреч ------------- " << std::endl;
 				std::cout << std::endl;

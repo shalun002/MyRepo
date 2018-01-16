@@ -79,6 +79,10 @@ public:
 		if (count == 1)
 		{
 			system("cls");	
+			std::cout << std::endl;
+			std::cout << " Ваше имя: "; std::cin >> player.name;
+			std::cout << " Введите ваш класс: "; std::cin.ignore() >> player.cource;
+			std::cout << std::endl;
 			save.saveResult(player.name, player.cource, player.cnt);
 		}
 		else if (count == 2)

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <vector>
 #include "Player.h"
 
 
@@ -24,6 +25,7 @@ public:
 		else
 		{
 			fout << "Имя - " << e << "  " << "Класс - " << f << " " << "Балл - " << g << std::endl;
+			fout << "Имя - " << e << ":" << "Балл - " << g << std::endl;
 		}
 		fout.close();
 
@@ -33,25 +35,35 @@ public:
 		std::cout << std::endl;
 	}
 
-	void showResults()
+	std::vector <SaveResultToFile> save;
+	void showResults(std::string filename)
 	{
-		std::ifstream fin("Result.txt");
-		if (!fin.is_open()) 
+		std::ifstream fin(filename);   //создаем объект потока istream  по имени fin
+									   //который инициализируется  именем fileName,
+									   //вызывается функция file.open();
+		if (!fin.is_open())			// Проверка файла на присутствие
 		{
-			std::string s;
-
-			while (!fin.eof())
+			std::cout << "Файл не найден" << std::endl;
+			system("pause");
+			system("cls");
+		}
+		else if (fin.is_open())
+		{
+			std::string temp;
+			while (getline(fin, temp))
 			{
-
-				fin >> pl.name2 >> pl.cource >> pl.cnt;
+				if (temp == pl.name+" "+pl.cource)
+				{
+					std::system("cls");
+					std::cout << "\n\n\n\n\n\t\t\t\t\t\t\t\t\tВаш результат " << std::endl;
+					std::cout << std::endl;
+					system("pause");
+					system("cls");
+					break;
+				}
 			}
 			fin.close();
-
-			std::cout << std::endl;
-			std::cout << " Ваше имя: " << pl.name2 << std::endl;
-			std::cout << " Ваш класс: " << pl.cource << std::endl;
-			std::cout << " Ваш балл по предмету: " << pl.cnt << std::endl;
-			std::cout << std::endl;
 		}
 	}
 };
+

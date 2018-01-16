@@ -21,9 +21,5 @@ public:
 	std::string corPass; // подтверждение первого пароля
 	std::string name2;    // имя студента
 	std::string cource;  // класс учащегося
-
-	//std::string studentInfo()
-	//{
-	//}
 };
 
