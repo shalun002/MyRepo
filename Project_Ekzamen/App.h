@@ -63,7 +63,6 @@ public:
 			std::cout << "\t\tВы не прошли тест. Это грустно(((( " << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;
-			system("pause");
 		}
 		else 
 		{
@@ -74,8 +73,6 @@ public:
 		}
 
 		int count = 0;
-		std::cout << std::endl;
-		std::cout << std::endl;
 		std::cout << "\t\t  Желаете сохранить результат? 1 - ДА, 2 - НЕТ  " << std::endl;
 		std::cout << "\t\t  Ваш выбор: "; std::cin >> count;
 		

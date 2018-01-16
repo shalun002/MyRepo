@@ -1,70 +1,70 @@
-A. Radii of the bases of the truncated cone 10 cm, 4 cm, height 8 cm. Find the generatrix
-	1. 20 cm
-	2. 5 cm
-	3. 100 cm
-	4. 10 cm
-	5. 6 cm
-	2. 5 cm
-B. Given the equation x2 + 7x + 1 = 0. Find the sum of the squares of its roots
-	1. 49
-	2. 65
-	3. 47
-	4. 25
-	5. 51
-	2. 65
-C. Write in the form of an algebraic expression: the difference of the product of the numbers m and n and the square of the number k
-	1. k2 + mn
-	2. mn - 2k
-	3. mn-k2
-	4. (m - n) k2
-	5. (m - n) 2k
-	4. (m - n) k2
-D. Solve the inequality:
-	1. (5; 4)
-	2. (1; -5)
-	3. (6; 1)
-	4. (-1; -3)
-	5. (-2; 3)
-	3. (6; 1)
-E. Find the angles of the parallelogram if one of them is greater than the other by 50 °
-	1. 65 ° and 115 °
-	2. 125 ° and 55 °
-	3. 75 ° and 105 °
-	4. 50 ° and 130 °
-	5. 60 ° and 120 °
-	5. 60 ° and 120 °
-F. For 2.5 kg lamb paid 475 tenge, then at the same price for 665 tenge lamb can be bought
-	1. 5 kg
-	2. 3.25 kg
-	3. 4 kg
-	4. 3.5 kg
-	5. 3 kg
-	1. 5 kg
-G. Express y in terms of x from the equation 10x - 5y - 7 = 0
-	1. y = 2x - 7
-	2. y = 2x + 1.4
-	3. y = 2x - 1.4
-	4. y = 2x + 7
-	5. y = -2x - 1.4
-	4. y = 2x + 7
-H. Find the derivative of the function f (x) =
-	1. x
-	2. 3x4
-	3. 11x4
-	4. 7x4
-	5. x4 - 7
-    2. 3x4
-I. Find the derivative of the function f (x) = 8x + ex
-	1. 8xln e
-	2. 8xln 8 + ex
-	3. xln 8
-	4. 8xln 8
-	5. 8xln x + e
-	4. 8xln 8
-J. What is the angle of the triangle with sides of 5 cm, 12 cm and 13 cm, opposite the side of 13 cm?
-	1. 30 °
-	2. 90 °
-	3. 45 °
-	4. 25 °
-	5. 60 °
-	2. 90 °
+А. Упростите выражение   -4m + 9n - 7m - 2n.
+	1. -3m + 11n
+	2. -3m + 7n
+	3. 11m + 7n
+	4. -11m + 7n
+	5.  12m + 4n
+	3. -3m + 7n
+B. Решите уравнение   10у – 13,5 = 2у - 37,5.
+	1. 6,375
+	2. 3
+	3. -3
+	4. 4
+	5. 6
+	3. -3
+C. Упростите выражение   с7 : c4 ∙ c.
+	1. 2.
+	2. c5
+	3. c6
+	4. c4
+	5. c12
+	4. c4
+D. Выполните умножение  (3a - b)(2b - 4a).
+	1. -12a2 – 10ab – 2b2
+	2. -12a2 + 10ab – 2b2
+	3. 6ab – 2b2
+	4. 6ab – 4b
+	5. 7ab - ba
+	2. -12a2 + 10ab – 2b2
+E. Преобразуйте в многочлен (4х – 5у)2.
+	1. 16х2 – 20ху + 25у2
+	2. 16х2 - 40ху + 25у2
+	3. 4х2 – 25у2
+	4. 16х2 – 25у2
+	5. 3х2 – 20у2
+	3. 4х2 – 25у2	
+F. Упростите выражение   -3а7b2∙(5a3)2.
+    1. 15a13b2
+	2.-15a12b2
+	3. 75a12b2
+	4. -75a13b2
+	5. 74a12b2
+	1. 15a13b2
+G. Найдите значение выражения    (-1)3 – (-2)3 + 52 – 72.
+	1.83
+	2.33
+	3.-16
+	4.-17
+    5. 28
+    3.-16
+H. Представьте выражение в виде квадрата двучлена 4у2 - 12у + 9.
+	1.(4у - 3)2
+	2.(2у - 9)2
+	3. 2у - 32
+	4.(2у - 3)2
+    5.(2у - 8)2
+    3. 3. 2у - 32
+I. Выразите у через х в выражении  -5х + у = -17.
+	1. У = 17 + 5х
+	2. У = -5х + 17
+	3. У = -17 + 5х
+	4. У = 17 - 5х
+    5. У = 16 - 5х
+    5. У = 16 - 5х
+J. Прямая пропорциональность задана формулой  у=х. Укажите значение у, соответствующее х = -12.
+	1. 4
+	2. -4
+	3. 36
+	4. -36
+	5. 24
+	2. -4
