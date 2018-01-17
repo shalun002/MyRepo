@@ -1,8 +1,2 @@
 Имя Sergey  Фамилия Blinov shalun:123
 shalun:123
-Имя Alex  Фамилия Alex alex:111
-alex:111
-Имя Maks  Фамилия Maks maks:222
-maks:222
-Имя Alfar  Фамилия Latypov alfar:123
-alfar:123

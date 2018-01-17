@@ -51,6 +51,7 @@ public:
 					std::cout << std::endl;
 					std::cout << std::endl;
 					system("pause");
+
 					system("cls");
 					
 					b = false;

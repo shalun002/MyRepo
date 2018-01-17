@@ -4,6 +4,7 @@
 #include <fstream>
 #include <vector>
 #include "Player.h"
+//#include "Cabinet.h"
 
 
 class SaveResultToFile
@@ -24,8 +25,8 @@ public:
 		}
 		else
 		{
-			fout << "Имя - " << e << "  " << "Класс - " << f << " " << "Балл - " << g << std::endl;
-			fout << "Имя - " << e << ":" << "Балл - " << g << std::endl;
+			fout << "Имя " << e << "  " << "Класс " << f << " " << "Балл " << g << std::endl;
+			fout << "Имя "<< e << " : " << "Балл "<< g << std::endl;
 		}
 		fout.close();
 
@@ -34,10 +35,17 @@ public:
 		std::cout << "\t\t\t\t\t\t\t\t\t Результат успешно сохранен! " << std::endl;
 		std::cout << std::endl;
 	}
+	
 
-	std::vector <SaveResultToFile> save;
+	std::vector <SaveResultToFile> out;
 	void showResults(std::string filename)
 	{
+		std::string s;
+		
+		system("cls");
+		std::cout << "\n\n\n\n\n\t\t\t\t\t\t Для результатов введите Имя и Класс" << "\n\n\n\n";
+		std::cout << "\n\t\t\t\t\t\t\t Введите имя:"; std::cin >> pl.name;
+		std::cout << "\t\t\t\t\t\t\t Введите класс: "; std::cin >> pl.cource; std::cout << std::endl;
 		std::ifstream fin(filename);   //создаем объект потока istream  по имени fin
 									   //который инициализируется  именем fileName,
 									   //вызывается функция file.open();
@@ -49,21 +57,26 @@ public:
 		}
 		else if (fin.is_open())
 		{
-			std::string temp;
-			while (getline(fin, temp))
+			while (getline(fin, pl.name))
 			{
-				if (temp == pl.name+" "+pl.cource)
+				if (s == pl.name)
 				{
 					std::system("cls");
-					std::cout << "\n\n\n\n\n\t\t\t\t\t\t\t\t\tВаш результат " << std::endl;
+					std::cout << "\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tВаш результат " << std::endl;
+					std::cout << std::endl;
+					system("pause");
+					system("cls");					
+				}
+				else
+				{
+					std::cout << "\n\n\n\n\n\t\t\t\t\t\tРезультатов нет. Пользователь не найден.";
 					std::cout << std::endl;
 					system("pause");
 					system("cls");
-					break;
 				}
+				break;
 			}
 			fin.close();
 		}
 	}
 };
-
