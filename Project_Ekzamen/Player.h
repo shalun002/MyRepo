@@ -6,13 +6,7 @@
 class Player
 {
 public:
-	static Player& Instance()
-	{
-		// согласно стандарту, этот код ленивый и потокобезопасный
-		static Player pl;
-		return pl;
-	}
-
+	
 	int cnt = 0;
 	int choice;
 	int ctr = 0;
@@ -26,83 +20,39 @@ public:
 	std::string name2;    // имя студента
 	std::string cource;  // класс учащегося
 
-	Player();  // конструктор недоступен
-		~Player(); // и деструктор
+	static Player & getInstace() 
+	{
+		static Player instance;
+		return instance;
+	}
 
-private:
+	/*void setCnt(int cnt) { this->cnt = cnt; }
+	void setChoice(int choice) { this->choice = choice; }
+	void setCtr(int ctr) { this->ctr = ctr; }
+
+	void setLogin(std::string login) { this->login = login; }
+	void setName(std::string name) { this->name = name; }
+	void setSurName(std::string surName) { this->surName = surName; }
+	void setPass(std::string pass) { this->pass = pass; }
+	void setPass2(std::string pass2) { this->pass2 = pass2; }
+	void setCorPass(std::string corPass) { this->corPass = corPass; }
+	void setName2(std::string name2) { this->name2 = name2; }
+	void setCource(std::string cource) { this->cource = cource; }
+
+	int getCnt() { return cnt; }
+	int getChoice() { return choice; }
+	int getCtr() { return ctr; }
+
+	std::string getLogin() { return login; }
+	std::string getName() { return name; }
+	std::string getName2() { return name2; }
+	std::string getSurName() { return surName; }
+	std::string getPass() { return pass; }
+	std::string getPass2() { return pass2; }
+	std::string getCorPass() { return corPass; }
+	std::string getCource() { return cource; }*/
 	
 
-				 // необходимо также запретить копирование
-	Player(Player const&) = delete;
-	Player& operator >> (Player const&) = delete;
+		Player();  // конструктор недоступен
+		~Player(); // и деструктор
 };
-								
-
-//
-//class Player
-//{
-//public:
-//
-//	Player();
-//	~Player();
-//
-//	
-//};
-
-
-
-//// ConsoleApplication2.cpp : Defines the entry point for the console application.
-////
-//
-//#include "stdafx.h"
-//
-//
-//#include <iostream>
-//#include <string>
-//
-//using namespace std;
-//
-//class GameSetting {
-//	static GameSetting* _instance;
-//	int _brightness;
-//	int _width;
-//	int _height;
-//	GameSetting() : _width(786), _height(1300), _brightness(75) {}
-//	// all constructors should be private or public(iff you want to allow inheritance)
-//
-//public:
-//	static GameSetting* getInstace() {
-//		if (_instance == NULL)
-//			_instance = new GameSetting();
-//		return _instance;
-//	}
-//	void setWidth(int width) { _width = width; }
-//	void setHeight(int height) { _height = height; }
-//	void setBrighness(int brightness) { _brightness = brightness; }
-//
-//	int getWidth() { return _width; }
-//	int getHeight() { return _height; }
-//	int getBrightness() { return _brightness; }
-//	void displaySetting() {
-//		cout << "brightness: " << _brightness << endl;
-//		cout << "height: " << _height << endl;
-//		cout << "width: " << _width << endl << endl;
-//	}
-//};
-//
-//GameSetting * GameSetting::_instance = NULL;
-//
-//void someFunction() {
-//	GameSetting *setting = GameSetting::getInstace();
-//	setting->displaySetting();
-//}
-//
-//int main() {
-//
-//	GameSetting *setting = GameSetting::getInstace();
-//	setting->displaySetting();
-//	setting->setBrighness(100);
-//
-//	someFunction();
-//	return 0;
-//}

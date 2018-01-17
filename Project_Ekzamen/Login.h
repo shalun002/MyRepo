@@ -13,7 +13,7 @@ class Login
 {
 	Registration reg;
 	Cabinet cab;
-	Player pl;
+	Player & player = Player::getInstace();
 
 public:
 	Login();
@@ -26,8 +26,8 @@ public:
 	{
 		system("cls");		
 		std::cout << "\n\n\n\n\n\t\t\t\t\t\t Для входа в личный кабинет введите логин и пароль" << "\n\n\n\n";
-		std::cout << "\n\t\t\t\t\t\t\t\t Введите логин:  "; std::cin >> pl.login;
-		std::cout << "\t\t\t\t\t\t\t\t Введите пароль: "; std::cin >> pl.pass; std::cout << std::endl;
+		std::cout << "\n\t\t\t\t\t\t\t\t Введите логин:  "; std::cin >> player.login;
+		std::cout << "\t\t\t\t\t\t\t\t Введите пароль: "; std::cin >> player.pass; std::cout << std::endl;
 		std::ifstream fin(filename);   //создаем объект потока istream  по имени fin
 																		//который инициализируется  именем fileName,
 																		//вызывается функция file.open();
@@ -43,10 +43,10 @@ public:
 			bool b = true;
 			while (getline(fin, temp))
 			{
-				if (temp == pl.login+":"+pl.pass)
+				if (temp == player.login+":"+ player.pass)
 				{
 					std::system("cls");
-					std::cout << "\n\n\n\n\n\t\t\t\t\t\t\t\t\tДобро пожаловать Уважаемый " << pl.login << std::endl;
+					std::cout << "\n\n\n\n\n\t\t\t\t\t\t\t\t\tДобро пожаловать Уважаемый " << player.login << std::endl;
 					std::cout << std::endl;
 					std::cout << std::endl;
 					std::cout << std::endl;

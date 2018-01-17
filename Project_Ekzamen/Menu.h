@@ -10,7 +10,6 @@
 class Menu
 {
 	Russian rus;
-	Player player;
 
 public:
 

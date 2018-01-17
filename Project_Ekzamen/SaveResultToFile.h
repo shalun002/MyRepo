@@ -9,7 +9,7 @@
 
 class SaveResultToFile
 {
-	Player pl;
+	Player & player = Player::getInstace();
 
 public:
 	SaveResultToFile();
@@ -25,8 +25,8 @@ public:
 		}
 		else
 		{
-			fout << "Имя " << e << "  " << "Класс " << f << " " << "Балл " << g << std::endl;
-			fout << "Имя "<< e << " : " << "Балл "<< g << std::endl;
+			fout << "Имя " << e << " : " << "Класс " << f << " " << "Балл " << g << std::endl;
+			fout << "Имя "<< e << " : " << "Класс "<< f << std::endl;
 		}
 		fout.close();
 
@@ -42,10 +42,10 @@ public:
 	{
 		std::string s;
 		
-		system("cls");
+		/*system("cls");
 		std::cout << "\n\n\n\n\n\t\t\t\t\t\t Для результатов введите Имя и Класс" << "\n\n\n\n";
-		std::cout << "\n\t\t\t\t\t\t\t Введите имя:"; std::cin >> pl.name;
-		std::cout << "\t\t\t\t\t\t\t Введите класс: "; std::cin >> pl.cource; std::cout << std::endl;
+		std::cout << "\n\t\t\t\t\t\t\t Введите имя:"; std::cin >> player.name;
+		std::cout << "\t\t\t\t\t\t\t Введите класс: "; std::cin >> player.cource; std::cout << std::endl;*/
 		std::ifstream fin(filename);   //создаем объект потока istream  по имени fin
 									   //который инициализируется  именем fileName,
 									   //вызывается функция file.open();
@@ -57,9 +57,9 @@ public:
 		}
 		else if (fin.is_open())
 		{
-			while (getline(fin, pl.name))
+			while (getline(fin, s))
 			{
-				if (s == pl.name)
+				if (s == player.name+":"+ player.cource)
 				{
 					std::system("cls");
 					std::cout << "\n\n\n\n\n\t\t\t\t\t\t\t\t\t\tВаш результат " << std::endl;

@@ -13,7 +13,7 @@ class App
 {
 	SaveResultToFile save;
 	Quiz quiz;
-	Player pl;
+	Player & player = Player::getInstace();
 
 public:
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -32,22 +32,22 @@ public:
 				std::cout << quiz.questions[i].variants[j] << std::endl;
 			}
 			std::cout << std::endl;
-			std::cout << " Ваш ответ:  "; std::cin >> pl.choice;
-			std::string s = quiz.questions[i].variants[pl.choice - 1];
-			if (quiz.questions[i].variants[pl.choice - 1] == quiz.questions[i].right)
+			std::cout << " Ваш ответ:  "; std::cin >> player.choice;
+			std::string s = quiz.questions[i].variants[player.choice - 1];
+			if (quiz.questions[i].variants[player.choice - 1] == quiz.questions[i].right)
 			{
 				SetConsoleTextAttribute(hConsole, 2);
 				std::cout << " Ваш ответ правильный\t " << std::endl;
 				SetConsoleTextAttribute(hConsole, 7);
 				std::cout << std::endl;
 				
-				++pl.cnt;
+				++player.cnt;
 			}
 			else 
 			{
 				std::cout << std::endl;
 				SetConsoleTextAttribute(hConsole, 12);
-				std::cout << " Ваш вариант ответа: -\t" << quiz.questions[i].variants[pl.choice - 1] << std::endl;
+				std::cout << " Ваш вариант ответа: -\t" << quiz.questions[i].variants[player.choice - 1] << std::endl;
 				SetConsoleTextAttribute(hConsole, 2);
 				std::cout << " Правильный ответ -  " << quiz.questions[i].right << std::endl;
 				SetConsoleTextAttribute(hConsole, 7);
@@ -55,18 +55,18 @@ public:
 			}
 		
 		}
-		if (pl.cnt < 5)
+		if (player.cnt < 5)
 		{
 			std::cout << std::endl;
 			std::cout << std::endl;
-			std::cout << " \t\t   Вы набрали - " << pl.cnt << " балл(а/ов)" << std::endl;
+			std::cout << " \t\t   Вы набрали - " << player.cnt << " балл(а/ов)" << std::endl;
 			std::cout << "\t\tВы не прошли тест. Это грустно(((( " << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;
 		}
 		else 
 		{
-			std::cout << "\t\t     Вы набрали - " << pl.cnt << " балл(а/ов)" << std::endl;
+			std::cout << "\t\t     Вы набрали - " << player.cnt << " балл(а/ов)" << std::endl;
 			std::cout << "\t\t   Вы прошли тест. Поздравляем!" << std::endl;
 			std::cout << std::endl;
 			std::cout << std::endl;
@@ -80,10 +80,10 @@ public:
 		{
 			system("cls");	
 			std::cout << std::endl;
-			std::cout << " Ваше имя: "; std::cin >> pl.name;
-			std::cout << " Введите ваш класс: "; std::cin >> pl.cource;
+			std::cout << " Ваше имя: "; std::cin >> player.name;
+			std::cout << " Введите ваш класс: "; std::cin >> player.cource;
 			std::cout << std::endl;
-			save.saveResult(pl.name, pl.cource,pl.cnt);
+			save.saveResult(player.name, player.cource, player.cnt);
 		}
 		else if (count == 2)
 		{		

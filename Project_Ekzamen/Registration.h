@@ -9,7 +9,7 @@
 
 class Registration
 {
-	Player pl;
+	Player & player = Player::getInstace();
 
 public:
 
@@ -40,17 +40,17 @@ public:
 		system("cls");
 		std::cout << "\n\n";
 		std::cout << "\t\t\t\t\t\t\t\t\t Добро пожаловать на форму регистрации!" << "\n\n\n\n";
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите имя: "; std::cin >> pl.name;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите фамилию: "; std::cin >> pl.surName;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте логин: "; std::cin >> pl.login;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте пароль: "; std::cin >> pl.pass2;
-		std::cout << "\t\t\t\t\t\t\t\t\t\t   Повторите пароль: ";  std::cin >> pl.corPass;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите имя: "; std::cin >> player.name;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Введите фамилию: "; std::cin >> player.surName;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте логин: "; std::cin >> player.login;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Придумайте пароль: "; std::cin >> player.pass2;
+		std::cout << "\t\t\t\t\t\t\t\t\t\t   Повторите пароль: ";  std::cin >> player.corPass;
 
 		
 
-		if (pl.pass2 == pl.corPass)
+		if (player.pass2 == player.corPass)
 		{
-			pl.pass = pl.corPass;
+			player.pass = player.corPass;
 			std::cout << "\n\n";
 			std::cout << "\t\t\t\t\t\t\t\t\t\t      Пароли совпадают" << std::endl;
 			std::cout << "\n\n";
@@ -58,7 +58,7 @@ public:
 			system("pause");
 			system("cls");
 			std::cout << "\n\n";
-			AddInfoToFile(pl.name, pl.surName, pl.login, pl.pass);
+			AddInfoToFile(player.name, player.surName, player.login, player.pass);
 		}
 		else
 		{
